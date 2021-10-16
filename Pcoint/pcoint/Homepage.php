@@ -65,7 +65,7 @@
                                     <a class="nav-link" href="index.html" style="color:gray;"> Home  </a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="#about" style="color:gray;">Product</a>
+                                    <a class="nav-link" href="Product.php" style="color:gray;">Product</a>
                                  </li>
                                  <li class="nav-item">
                                     <a class="nav-link" href="#about" style="color:gray;">About</a>
