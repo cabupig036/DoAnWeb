@@ -122,7 +122,7 @@
                <div class="col-md-8 offset-md-2 ">
                   <div class="about_box ">
                      <figure><img src="images/about_img.png" alt="#"/></figure>
-                     <a class="read_more" href="#">Read more</a>
+                     <a class="read_more" href="About.php">Read more</a>
                   </div>
                </div>
             </div>
