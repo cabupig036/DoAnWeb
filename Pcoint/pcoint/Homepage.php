@@ -188,43 +188,51 @@
                   <div class="container_ov">
                      <figure><img src="images/mane_img.jpg" alt="#" class="image_ov" /></figure>
                      <div class="overlay">
-                        <div class="text_ov">Hello World</div>
+                        <div class="text_ov">Anh leader đẹp trai khoai to</div>
                      </div>
                   </div>
+                  <div class="text_name">Phạm Thanh Thuận</div>
                </div>
+               <button class="btn_ctn"> <a href="https://www.facebook.com/thanhthuanPT" class="btn_ctn_fb">info</a></button>
             </div>
             <div class="col">
                <div class="mane_img">
                   <div class="container_ov">
                      <figure><img src="images/mane_img.jpg" alt="#" class="image_ov" /></figure>
                      <div class="overlay">
-                        <div class="text_ov">Hello World</div>
+                        <div class="text_ov">Anh thợ sửa ống nước mai mắn </div>
                      </div>
                   </div>
+                  <div class="text_name">Ngô Gia Vinh</div>
                </div>
+               <button class="btn_ctn"> <a href="https://www.facebook.com/iruno.mysterio" class="btn_ctn_fb">info</a></button>
             </div>
             <div class="col">
                <div class="mane_img">
                   <div class="container_ov">
                      <figure><img src="images/mane_img.jpg" alt="#" class="image_ov" /></figure>
                      <div class="overlay">
-                        <div class="text_ov">Held</div>
+                        <div class="text_ov">Anh nhân viên trẻ</div>
                      </div>
                   </div>
+                  <div class="text_name">Ngô Thanh Danh</div>
                </div>
+               <button class="btn_ctn"> <a href="https://www.facebook.com/profile.php?id=100028657611133" class="btn_ctn_fb">info</a></button>
             </div>
             <div class="col">
                <div class="mane_img">
                   <div class="container_ov">
                      <figure><img src="images/mane_img.jpg" alt="#" class="image_ov" /></figure>
                      <div class="overlay">
-                        <div class="text_ov">Hello World</div>
+                        <div class="text_ov">Thợ sửa máy lạnh chăm chĩ</div>
                      </div>
                   </div>
+                  <div class="text_name">Trần Đình Đô</div>
                </div>
+               <button class="btn_ctn"> <a href="https://www.facebook.com/ddoo.td" class="btn_ctn_fb">info</a></button>
             </div>
          </div>
-         
+
       </div>
    </div>
    </div>
