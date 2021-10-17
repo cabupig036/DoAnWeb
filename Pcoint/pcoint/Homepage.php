@@ -208,7 +208,7 @@
                   <div class="container_ov">
                      <figure><img src="images/mane_img.jpg" alt="#" class="image_ov" /></figure>
                      <div class="overlay">
-                        <div class="text_ov">Hello World</div>
+                        <div class="text_ov">Held</div>
                      </div>
                   </div>
                </div>
