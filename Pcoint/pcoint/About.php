@@ -288,7 +288,7 @@
             </div>
             <div class="map-section">
                 <!-- <img src="./images/AE_About-img/thumb2.jpg" alt="Map" class="map-img"> -->
-                <img src="./images/AE_About-img/thumb3.jpg" alt="Map" class="map-img">
+                <img src="./images/AE_About-img/RtIR1.jpg" alt="Map" class="map-img">
 
             </div>
 
