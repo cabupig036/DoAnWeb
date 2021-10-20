@@ -8,8 +8,19 @@
     <title>About PCOINT</title>
     <link rel="icon" href="https://themify.me/wp-content/themes/themify-v32/favicon.png" type="image/gif" sizes="16x16">
 
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+
     <!-- link => tab -->
-    <link rel="stylesheet" href="./css/AE_About.css">
+    <link rel="stylesheet" href="../Pcoint/css/AE_About.css">
     <link rel="stylesheet" href="./js/AE_About.js">
     <link rel="stylesheet" href="./fonts/themify-icons/themify-icons.css">
 
@@ -177,8 +188,8 @@
             <!-- Tour section -->
             <div id="tour" class="tour-section">
                 <div class="content-section">
-                    <h2 class="section-heading text-white">PCOINT STORY</h2>
-                    <p class="section-sub-heading text-white">Our Journey. Look</p>
+                    <h2 class="section-heading ">PCOINT STORY</h2>
+                    <p class="section-sub-heading ">Our Journey. Look</p>
 
                     <!-- <ul class="tickets">
                         <li>September <span class="sold-out">Sold out</span></li>
@@ -232,7 +243,7 @@
                             <div class="place-body">
                                 <p class="place-text">New York Times</p>
                                 <p class="place-text place-text-date" style="color: #ccc;">Robb Report  |  Fri 27 Nov 2016</p>
-                                <p class="place-text">HARPER’S BAZAAR STAR AWARDS 2019 GỌI TÊN 27…</p>
+                                <p class="place-text">HARPER’S BAZAAR STAR AWARDS 2019 GỌI TÊN 2</p>
                                 <a class="place-btn js-buy-ticket s-full-width">SEE MORE</a>
                             </div>
                         </div>

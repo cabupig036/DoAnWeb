@@ -193,7 +193,7 @@ html{
     font-weight: 400;
     margin: 10px 0;
     font-weight: 800;
-    color: #38CF98;
+    color: rgb(11, 197, 129);
 }
 #content .section-sub-heading{
     font-style: italic;
@@ -232,7 +232,7 @@ html{
 }
 /* Tour section */
 .tour-section{
-    background: rgb(248, 246, 246);
+    background: rgb(250, 246, 246);
 }
 .tickets{
     background-color: white;
@@ -285,7 +285,7 @@ html{
     display: block;
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
-    box-shadow: 0 2px 6px 0 rgba(189, 181, 181, 0.2);
+    box-shadow: 0 2px 6px 0 rgba(43, 40, 40, 0.2);
 
 }
 .place-img:hover{
@@ -294,13 +294,13 @@ html{
 
 .place-body{
     padding: 15px;
-    background-color: rgba(36, 19, 19, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     font-size: 15px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     margin: auto;
     text-align: center;
-    box-shadow: 0 2px 6px 0 rgba(189, 181, 181, 0.2);
+    box-shadow: 0 2px 6px 0 rgba(43, 40, 40, 0.2);
 
 }
 
@@ -311,9 +311,10 @@ html{
 
 .place-text{
     margin: 6px 0;
-    color: #fff;
+    color: rgb(0, 0, 0);
     margin-left: 31px;
     margin-right: 31px;
+    font-weight: 700;
 }
 
 .place-text-date{
@@ -327,7 +328,7 @@ html{
     margin-top: 12px;
     text-decoration: none;
     color:white;
-    background-color: #38CF98;
+    background-color: #3ee4a7;
     text-align: center;
     display: inline-block;
     cursor: pointer;
