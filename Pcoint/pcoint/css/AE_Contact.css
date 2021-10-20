@@ -11,7 +11,7 @@
   margin-top: 20px;
   margin-left: 0;
   margin-right: 0;
-  border-radius: 40%;
+  border-radius: 50%;
 }
 
 .overlay {
@@ -25,7 +25,7 @@
   opacity: 0;
   transition: 0.5s ease;
   background-color: #161c1f;
-  border-radius: 40%;
+  border-radius: 50%;
 }
 
 .container_ov:hover .overlay {
@@ -54,3 +54,18 @@
   width: 30%;
   background-color: #2bcc91;
 }
+
+.btnmoresee {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+/* .tri_1{
+  position: relative;
+
+}
+.tri{
+  position: absolute;
+  left:50%;
+  top:50%;
+} */

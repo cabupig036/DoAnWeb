@@ -28,7 +28,6 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
    <!-- css about -->
    <link rel="stylesheet" href="css/AE_Contact.css">
-
    <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
@@ -181,7 +180,6 @@
                </div>
             </div>
          </div>
-
          <div class="row">
             <div class="col">
                <div class="mane_img">
@@ -233,7 +231,13 @@
             </div>
          </div>
 
+         <div class="row">
+            <div class="col">
+               <div class="btnmoresee"> <a class="" href="Contact.php">info</a></div>
+            </div>
+         </div>
       </div>
+
    </div>
    </div>
    </div>
