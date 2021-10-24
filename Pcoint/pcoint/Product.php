@@ -23,13 +23,13 @@
                     <h3 class="category__heading"><i class="category__heading-icon fas fa-list-ul"></i>Danh Mục</h3>
                     <ul class="category-list">
                         <li class="category-item category-item--active">
-                            <a href="#" class="category-item__link">LAPTOP DELL</a>
+                            <a href="#" class="category-item__link">MACBOOK</a>
                         </li>
                         <li class="category-item">
                             <a href="#" class="category-item__link">LAPTOP ASUS</a>
                         </li>
                         <li class="category-item">
-                            <a href="#" class="category-item__link">MACBOOK</a>
+                            <a href="#" class="category-item__link">LAPTOP DELL</a>
                         </li>
                     </ul>
                 </nav>
@@ -60,7 +60,7 @@
                             <a href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="home-product-item-info-wrap">
-                                    <h4 class="home-product-item-name">[Mã FMCGMALL - 8% đơn 250K] Son môi OHUI Rouge Real Lipstick 3.5g</h4>
+                                    <h4 class="home-product-item-name">MACBOOK 2021 Phiên bản Chip M1Pro_Max 16 inch</h4>
                                     <div class="home-product-item-price">
                                         <div class="home-product-item-price-old">đ770.000</div>
                                         <div class="home-product-item-price-current">đ650.000</div>
@@ -77,7 +77,7 @@
                                         <span class="home-product-item__sold">88 đã bán</span>
                                     </div>
                                     <div class="home-product-item-origin">
-                                        <span class="home-product-item__band">Ohui</span>
+                                        <span class="home-product-item__band">Laptop</span>
                                         <span class="home-product-item__area">TP.Hồ Chí Minh</span>
                                     </div>
                                     <div class="home-product-item__favourite">
@@ -94,7 +94,7 @@
                             <a href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="home-product-item-info-wrap">
-                                    <h4 class="home-product-item-name">[Mã FMCGMALL - 8% đơn 250K] Son môi OHUI Rouge Real Lipstick 3.5g</h4>
+                                    <h4 class="home-product-item-name">MACBOOK 2021 Phiên bản Chip M1Pro_Max 16 inch</h4>
                                     <div class="home-product-item-price">
                                         <div class="home-product-item-price-old">đ770.000</div>
                                         <div class="home-product-item-price-current">đ650.000</div>
@@ -111,7 +111,7 @@
                                         <span class="home-product-item__sold">88 đã bán</span>
                                     </div>
                                     <div class="home-product-item-origin">
-                                        <span class="home-product-item__band">Ohui</span>
+                                        <span class="home-product-item__band">Laptop</span>
                                         <span class="home-product-item__area">TP.Hồ Chí Minh</span>
                                     </div>
                                     <div class="home-product-item__favourite">
@@ -128,7 +128,7 @@
                             <a href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="home-product-item-info-wrap">
-                                    <h4 class="home-product-item-name">[Mã FMCGMALL - 8% đơn 250K] Son môi OHUI Rouge Real Lipstick 3.5g</h4>
+                                    <h4 class="home-product-item-name">MACBOOK 2021 Phiên bản Chip M1Pro_Max 16 inch</h4>
                                     <div class="home-product-item-price">
                                         <div class="home-product-item-price-old">đ770.000</div>
                                         <div class="home-product-item-price-current">đ650.000</div>
@@ -145,7 +145,7 @@
                                         <span class="home-product-item__sold">88 đã bán</span>
                                     </div>
                                     <div class="home-product-item-origin">
-                                        <span class="home-product-item__band">Ohui</span>
+                                        <span class="home-product-item__band">Laptop</span>
                                         <span class="home-product-item__area">TP.Hồ Chí Minh</span>
                                     </div>
                                     <div class="home-product-item__favourite">
@@ -162,7 +162,7 @@
                             <a href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="home-product-item-info-wrap">
-                                    <h4 class="home-product-item-name">[Mã FMCGMALL - 8% đơn 250K] Son môi OHUI Rouge Real Lipstick 3.5g</h4>
+                                    <h4 class="home-product-item-name">MACBOOK 2021 Phiên bản Chip M1Pro_Max 16 inch</h4>
                                     <div class="home-product-item-price">
                                         <div class="home-product-item-price-old">đ770.000</div>
                                         <div class="home-product-item-price-current">đ650.000</div>
@@ -179,7 +179,7 @@
                                         <span class="home-product-item__sold">88 đã bán</span>
                                     </div>
                                     <div class="home-product-item-origin">
-                                        <span class="home-product-item__band">Ohui</span>
+                                        <span class="home-product-item__band">Laptop</span>
                                         <span class="home-product-item__area">TP.Hồ Chí Minh</span>
                                     </div>
                                     <div class="home-product-item__favourite">
@@ -196,7 +196,7 @@
                             <a href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="home-product-item-info-wrap">
-                                    <h4 class="home-product-item-name">[Mã FMCGMALL - 8% đơn 250K] Son môi OHUI Rouge Real Lipstick 3.5g</h4>
+                                    <h4 class="home-product-item-name">MACBOOK 2021 Phiên bản Chip M1Pro_Max 16 inch</h4>
                                     <div class="home-product-item-price">
                                         <div class="home-product-item-price-old">đ770.000</div>
                                         <div class="home-product-item-price-current">đ650.000</div>
@@ -213,7 +213,7 @@
                                         <span class="home-product-item__sold">88 đã bán</span>
                                     </div>
                                     <div class="home-product-item-origin">
-                                        <span class="home-product-item__band">Ohui</span>
+                                        <span class="home-product-item__band">Laptop</span>
                                         <span class="home-product-item__area">TP.Hồ Chí Minh</span>
                                     </div>
                                     <div class="home-product-item__favourite">
@@ -230,7 +230,7 @@
                             <a href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="home-product-item-info-wrap">
-                                    <h4 class="home-product-item-name">[Mã FMCGMALL - 8% đơn 250K] Son môi OHUI Rouge Real Lipstick 3.5g</h4>
+                                    <h4 class="home-product-item-name">MACBOOK 2021 Phiên bản Chip M1Pro_Max 16 inch</h4>
                                     <div class="home-product-item-price">
                                         <div class="home-product-item-price-old">đ770.000</div>
                                         <div class="home-product-item-price-current">đ650.000</div>
@@ -247,7 +247,7 @@
                                         <span class="home-product-item__sold">88 đã bán</span>
                                     </div>
                                     <div class="home-product-item-origin">
-                                        <span class="home-product-item__band">Ohui</span>
+                                        <span class="home-product-item__band">Laptop</span>
                                         <span class="home-product-item__area">TP.Hồ Chí Minh</span>
                                     </div>
                                     <div class="home-product-item__favourite">
@@ -264,7 +264,7 @@
                             <a href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="home-product-item-info-wrap">
-                                    <h4 class="home-product-item-name">[Mã FMCGMALL - 8% đơn 250K] Son môi OHUI Rouge Real Lipstick 3.5g</h4>
+                                    <h4 class="home-product-item-name">MACBOOK 2021 Phiên bản Chip M1Pro_Max 16 inch</h4>
                                     <div class="home-product-item-price">
                                         <div class="home-product-item-price-old">đ770.000</div>
                                         <div class="home-product-item-price-current">đ650.000</div>
@@ -281,7 +281,7 @@
                                         <span class="home-product-item__sold">88 đã bán</span>
                                     </div>
                                     <div class="home-product-item-origin">
-                                        <span class="home-product-item__band">Ohui</span>
+                                        <span class="home-product-item__band">Laptop</span>
                                         <span class="home-product-item__area">TP.Hồ Chí Minh</span>
                                     </div>
                                     <div class="home-product-item__favourite">
@@ -298,7 +298,7 @@
                             <a href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="home-product-item-info-wrap">
-                                    <h4 class="home-product-item-name">[Mã FMCGMALL - 8% đơn 250K] Son môi OHUI Rouge Real Lipstick 3.5g</h4>
+                                    <h4 class="home-product-item-name">MACBOOK 2021 Phiên bản Chip M1Pro_Max 16 inch</h4>
                                     <div class="home-product-item-price">
                                         <div class="home-product-item-price-old">đ770.000</div>
                                         <div class="home-product-item-price-current">đ650.000</div>
@@ -315,7 +315,7 @@
                                         <span class="home-product-item__sold">88 đã bán</span>
                                     </div>
                                     <div class="home-product-item-origin">
-                                        <span class="home-product-item__band">Ohui</span>
+                                        <span class="home-product-item__band">Laptop</span>
                                         <span class="home-product-item__area">TP.Hồ Chí Minh</span>
                                     </div>
                                     <div class="home-product-item__favourite">
@@ -332,7 +332,7 @@
                             <a href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="home-product-item-info-wrap">
-                                    <h4 class="home-product-item-name">[Mã FMCGMALL - 8% đơn 250K] Son môi OHUI Rouge Real Lipstick 3.5g</h4>
+                                    <h4 class="home-product-item-name">MACBOOK 2021 Phiên bản Chip M1Pro_Max 16 inch</h4>
                                     <div class="home-product-item-price">
                                         <div class="home-product-item-price-old">đ770.000</div>
                                         <div class="home-product-item-price-current">đ650.000</div>
@@ -349,7 +349,7 @@
                                         <span class="home-product-item__sold">88 đã bán</span>
                                     </div>
                                     <div class="home-product-item-origin">
-                                        <span class="home-product-item__band">Ohui</span>
+                                        <span class="home-product-item__band">Laptop</span>
                                         <span class="home-product-item__area">TP.Hồ Chí Minh</span>
                                     </div>
                                     <div class="home-product-item__favourite">
@@ -366,7 +366,7 @@
                             <a href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="home-product-item-info-wrap">
-                                    <h4 class="home-product-item-name">[Mã FMCGMALL - 8% đơn 250K] Son môi OHUI Rouge Real Lipstick 3.5g</h4>
+                                    <h4 class="home-product-item-name">MACBOOK 2021 Phiên bản Chip M1Pro_Max 16 inch</h4>
                                     <div class="home-product-item-price">
                                         <div class="home-product-item-price-old">đ770.000</div>
                                         <div class="home-product-item-price-current">đ650.000</div>
@@ -383,7 +383,7 @@
                                         <span class="home-product-item__sold">88 đã bán</span>
                                     </div>
                                     <div class="home-product-item-origin">
-                                        <span class="home-product-item__band">Ohui</span>
+                                        <span class="home-product-item__band">Laptop</span>
                                         <span class="home-product-item__area">TP.Hồ Chí Minh</span>
                                     </div>
                                     <div class="home-product-item__favourite">
