@@ -243,7 +243,7 @@
                             <div class="place-body">
                                 <p class="place-text">New York Times</p>
                                 <p class="place-text place-text-date" style="color: #ccc;">Robb Report  |  Fri 27 Nov 2016</p>
-                                <p class="place-text">HARPER’S BAZAAR STAR AWARDS 2019 GỌI TÊN 2</p>
+                                <p class="place-text">HARPER’S BAZAAR STAR AWARDS 2019</p>
                                 <a class="place-btn js-buy-ticket s-full-width">SEE MORE</a>
                             </div>
                         </div>
@@ -313,7 +313,15 @@
                     <a href="#"><i class="ti-tiktok"></i></a>
                     <a href="#"><i class="ti-pinterest"></i></a>
                 </div>
-
+            </div>
+            <div class="copyright">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>© 2019 All Rights Reserved. Design by <a href="https://html.design/"> Free Html Templates</a></p>
+                            </div>
+                        </div>
+                    </div>
             </div>
             <!-- Buy Tickets -->
             <div class="modal js-modal">
