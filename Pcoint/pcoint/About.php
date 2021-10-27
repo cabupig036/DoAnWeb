@@ -103,19 +103,19 @@
                            <div class="collapse navbar-collapse" id="navbarsExample04">
                               <ul class="navbar-nav mr-auto">
                                  <li class="nav-item">
-                                    <a class="nav-link" href="index.html"> HomePage </a>
+                                    <a class="nav-link" href="./Homepage.php"> HomePage </a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="#about" style="color:gray;">Product</a>
+                                    <a class="nav-link" href="./Product.php" style="color:gray;">Product</a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="#about" style="color:gray;">About</a>
+                                    <a class="nav-link" href="./About.php" style="color:gray;">About</a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="#contact" style="color:gray;">Contact us</a>
+                                    <a class="nav-link" href="./Contact.php" style="color:gray;">Contact us</a>
                                  </li>
                               </ul>
-                              <div class="sign_btn"><a href="/DoAnWeb/login-form-v1/Login_v1/Login.php">Sign in</a></div>
+                              <div class="sign_btn"><a href="/login-form-v1/Login_v1/Login.php">Sign in</a></div>
                            </div>
                         </nav>
                      </div>
