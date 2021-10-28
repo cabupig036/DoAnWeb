@@ -5,20 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <a href=""></a>
+<<<<<<< HEAD
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="../pcoint/css/style.css">
 
     <link rel="stylesheet" href="./css/dinhdo/gird.css">
     <link rel="stylesheet" href="./css/dinhdo/responsive.css">
     <link rel="stylesheet" href="./css/dinhdo/main.css">
+=======
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../pcoint/css/style.css">
+
+
+    <link rel="stylesheet" href="../pcoint/css/dinhdo/gird.css">
+    <link rel="stylesheet" href="../pcoint/css/dinhdo/responsive.css">
+    <link rel="stylesheet" href="../pcoint/css/dinhdo/main.css">
+>>>>>>> de0ae868ad86060eb4845d8596cad804a1567ce8
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+    <!-- Header/Footer source -->
+    <!-- bootstrap css -->
+    
+
+      <!-- <link rel="stylesheet" href="css/responsive.css">
+
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css"> -->
     <title>Laptop</title>
 </head>
 <body>
 
+<<<<<<< HEAD
 <div class="main">
  <!-- header inner -->
  <div  class="head_top">
+=======
+<header>
+         <!-- header inner -->
+         <div  class="head_top">
+>>>>>>> de0ae868ad86060eb4845d8596cad804a1567ce8
             <div class="header">
                <div class="container">
                   <div class="row">
@@ -84,6 +111,10 @@
          </div>
       </header>
       <!-- end banner -->
+<<<<<<< HEAD
+=======
+
+>>>>>>> de0ae868ad86060eb4845d8596cad804a1567ce8
 <div class="app__container">
     <div class="grid wide">
         <div class="row">
@@ -448,7 +479,39 @@
     </footer>
       <!-- end footer -->
 
-
+<!--  footer -->
+<footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="cont">
+                        <h3> <strong class="multi"> Free Multipurpose</strong><br>
+                           Responsive Landing Page 2019
+                        </h3>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="cont_call">
+                        <h3> <strong class="multi"> Call Now</strong><br>
+                           (+1) 12345667890
+                        </h3>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>© 2019 All Rights Reserved. Design by <a href="https://html.design/"> Free Html Templates</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
 
 </div>
 </body>
