@@ -5,14 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <a href=""></a>
-<<<<<<< HEAD
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="../pcoint/css/style.css">
-
-    <link rel="stylesheet" href="./css/dinhdo/gird.css">
-    <link rel="stylesheet" href="./css/dinhdo/responsive.css">
-    <link rel="stylesheet" href="./css/dinhdo/main.css">
-=======
     
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="../pcoint/css/style.css">
@@ -21,7 +13,6 @@
     <link rel="stylesheet" href="../pcoint/css/dinhdo/gird.css">
     <link rel="stylesheet" href="../pcoint/css/dinhdo/responsive.css">
     <link rel="stylesheet" href="../pcoint/css/dinhdo/main.css">
->>>>>>> de0ae868ad86060eb4845d8596cad804a1567ce8
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
 
     <!-- Header/Footer source -->
@@ -36,16 +27,12 @@
     <title>Laptop</title>
 </head>
 <body>
-
-<<<<<<< HEAD
+<div class="main ">
 <div class="main">
- <!-- header inner -->
- <div  class="head_top">
-=======
+
 <header>
          <!-- header inner -->
          <div  class="head_top">
->>>>>>> de0ae868ad86060eb4845d8596cad804a1567ce8
             <div class="header">
                <div class="container">
                   <div class="row">
@@ -111,16 +98,13 @@
          </div>
       </header>
       <!-- end banner -->
-<<<<<<< HEAD
-=======
 
->>>>>>> de0ae868ad86060eb4845d8596cad804a1567ce8
 <div class="app__container">
     <div class="grid wide">
         <div class="row">
             <div class="col l-2 m-0 c-0">
                 <nav class="category">
-                    <h3 class="category__heading" style="margin-top:16px" ><i class="category__heading-icon fas fa-list-ul"></i>Danh Mục</h3>
+                    <h3 class="category__heading" style="margin-top:16px"><i class="category__heading-icon fas fa-list-ul"></i>Danh Mục</h3>
                     <ul class="category-list">
                         <li class="category-item category-item--active">
                             <a href="#" class="category-item__link">MACBOOK</a>
@@ -156,7 +140,6 @@
 
                 <div class="home-product">
                     <div class="row">
-                        
                         <div class="col l-2-4 m-4 c-6" style="margin-top: 15px;">
                             <a href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
@@ -454,30 +437,6 @@
         </div>
     </div>
 </div>
-<!--  footer -->
-    <footer>
-         <div class="footer">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-6">
-                     <div class="cont">
-                        <h3> <strong class="multi"> Free Multipurpose</strong><br>
-                           Responsive Landing Page 2019
-                        </h3>
-                     </div>
-                  </div>
-                  <div class="col-md-6">
-                     <div class="cont_call">
-                        <h3> <strong class="multi"> Call Now</strong><br>
-                           (+1) 12345667890
-                        </h3>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-    </footer>
-      <!-- end footer -->
 
 <!--  footer -->
 <footer>
