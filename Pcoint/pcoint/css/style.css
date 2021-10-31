@@ -274,7 +274,7 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 0 25px;
-     color: #fff;
+     color: #ccc;
      font-size: 16px;
      line-height: 20px;
      text-transform: uppercase;
@@ -452,12 +452,12 @@ font-size: 21px;
 }
 
 
-/** about section **/
+ /* about section  */
 
-.about {
+/* .about {
      margin-top: 90px;
-     background: #23262d;
-     padding: 60px 0;
+     background: #fff;
+     padding: 60px 0; 
 }
 
 .about .titlepage h2 {
@@ -491,7 +491,7 @@ font-size: 21px;
 .about .about_box .read_more:hover {
      background: #f55171;
 }
-
+ */
 
 /** end about section **/
 
