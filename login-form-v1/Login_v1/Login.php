@@ -32,7 +32,7 @@
 					<img src="images/img-01.png" alt="IMG">
 				</div>
 
-				<form  action="./login_db.php" method="post" class="login100-form validate-form">
+				<form  action="login_db.php" method="POST" class="login100-form validate-form">
 					<span class="login100-form-title">
 						Member Login
 					</span>
@@ -55,7 +55,7 @@
 					
 
 					<div class="container-login100-form-btn">
-						<button type="submit" name="login" class="login100-form-btn">
+						<button type="submit" name="submit" class="login100-form-btn">
 							Login
 						</button></a>
 					</div>
