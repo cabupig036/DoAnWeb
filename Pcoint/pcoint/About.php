@@ -248,7 +248,7 @@
                                 <p class="place-text">New York Times</p>
                                 <p class="place-text place-text-date" style="color: #ccc;">Robb Report  |  Fri 27 Nov 2016</p>
                                 <p class="place-text">HARPER’S BAZAAR STAR AWARDS 2019</p>
-                                <a class="place-btn js-buy-ticket s-full-width">SEE MORE</a>
+                                <a data-target="" data-toggle="" class="place-btn js-buy-ticket s-full-width">SEE MORE</a>
                             </div>
                         </div>
 
