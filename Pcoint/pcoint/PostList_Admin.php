@@ -29,6 +29,10 @@
         tr:nth-child(even) {
             background-color: #dddddd;
         }
+
+        table a{
+            text-decoration: none;
+        }
     </style>
 </head>
 
@@ -49,7 +53,7 @@
                                 <tr>
                                     <th style="width: 20%;">Image</th>
                                     <th style="width: 5%;">ID</th>
-                                    <th style="width: 50%;">Content</th>
+                                    <th style="width: 60%;">Content</th>
                                     <th colspan="2">Function</th>
                                 </tr>
                                 <tr>
@@ -60,36 +64,36 @@
                                     <td><a href="#">Delete</a></td>
                                 </tr>
                                 <tr>
-                                    <td><img src="./images/AE_About-img/190515-pc-world-vietnam-01_resize.jpg" width="50%" class=""></td>
-                                    <td>1</td>
+                                    <td><img src="./images/AE_About-img/96bbao-chi-15610505946001909450090-crop-1561050602186271427839.jpg" width="50%" class=""></td>
+                                    <td>2</td>
                                     <td>Maria Anders Centro comercial Moctezum Island Trading</td>
                                     <td><a href="#">Edit</a></td>
                                     <td><a href="#">Delete</a></td>
                                 </tr>
                                 <tr>
-                                    <td><img src="./images/AE_About-img/190515-pc-world-vietnam-01_resize.jpg" width="50%" class=""></td>
-                                    <td>1</td>
+                                    <td><img src="./images/AE_About-img/sb-blog-programming_800x450.jpg" width="50%" class=""></td>
+                                    <td>3</td>
                                     <td>Maria Anders Centro comercial Moctezum Island Trading</td>
                                     <td><a href="#">Edit</a></td>
                                     <td><a href="#">Delete</a></td>
                                 </tr>
                                 <tr>
-                                    <td><img src="./images/AE_About-img/190515-pc-world-vietnam-01_resize.jpg" width="50%" class=""></td>
-                                    <td>1</td>
+                                    <td><img src="./images/AE_About-img/thumb_800x501.jpg" width="50%" class=""></td>
+                                    <td>4</td>
                                     <td>Maria Anders Centro comercial Moctezum Island Trading</td>
                                     <td><a href="#">Edit</a></td>
                                     <td><a href="#">Delete</a></td>
                                 </tr>
                                 <tr>
-                                    <td><img src="./images/AE_About-img/190515-pc-world-vietnam-01_resize.jpg" width="50%" class=""></td>
-                                    <td>1</td>
+                                    <td><img src="./images/AE_About-img/thumb2.jpg" width="50%" class=""></td>
+                                    <td>5</td>
                                     <td>Maria Anders Centro comercial Moctezum Island Trading</td>
                                     <td><a href="#">Edit</a></td>
                                     <td><a href="#">Delete</a></td>
                                 </tr>
                                 <tr>
-                                    <td><img src="./images/AE_About-img/190515-pc-world-vietnam-01_resize.jpg" width="50%" class=""></td>
-                                    <td>1</td>
+                                    <td><img src="./images/AE_About-img/thumb3.jpg" width="50%" class=""></td>
+                                    <td>6</td>
                                     <td>Maria Anders Centro comercial Moctezum Island Trading</td>
                                     <td><a href="#">Edit</a></td>
                                     <td><a href="#">Delete</a></td>
