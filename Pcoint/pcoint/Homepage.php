@@ -74,7 +74,16 @@
                                     <a class="nav-link" href="./Contact.php" style="color:gray;">Contact us</a>
                                  </li>
                               </ul>
-                              <div class="sign_btn"><a href="/login-form-v1/Login_v1/Login.php">Sign in</a></div>
+                              <?php
+                                 session_start();
+                                 // echo $_SESSION['login'];
+                                 if($_SESSION['login']) {
+                                    echo '<div class="sign_btn"><a href="">Avatar</a></div>';
+                                    echo '<a class="nav-link" href="./../../login-form-v1/Login_v1/Logout.php" style="color:gray;">Logout</a>';
+                                 } else {
+                                    echo '<div class="sign_btn"><a href="./../../login-form-v1/Login_v1/Login.php">Sign in</a></div>';
+                                 }
+                              ?>
                            </div>
                         </nav>
                      </div>

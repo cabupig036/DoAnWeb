@@ -1,20 +1,26 @@
 <?php
     include 'config.php';
-    if(isset($_POST["submit"]) && $_POST["username"] != '' && $_POST["password"] != ''){
-        $username = $_POST["username"];
+    if(isset($_POST["submit"]) && $_POST["email"] != '' && $_POST["password"] != ''){
+        $email = $_POST["email"];
         $password = $_POST["password"];
         $password = md5($password);
         
-        $sql = "SELECT * FROM user WHERE username = '$username' AND password = '$password'";
+        $sql = "SELECT * FROM user WHERE email = '$email' AND password = '$password'";
         $user = mysqli_query($conn, $sql);
-        
-        if(mysqli_num_rows($user) > 0){
-            echo "Bạn đã đăng nhập thành công";
-        }else{
-            echo "Bạn đã nhập sai";
+        $message = "Nhập sai, mời nhập lại";
+        if(mysqli_num_rows($user) > 0) {
+            session_start();
+            // Đếm mỗi lần truy cập
+            $_SESSION['login'] = true;
+            
+            header("location: ./../../Pcoint/pcoint/Homepage.php");
+        } else{
+            echo '<script type="text/javascript">'; 
+            echo "alert('{$message}');";
+            echo 'window.location.href = "./Login.php";';
+            echo '</script>';
         }
-    }else{
+    } else{
         header("location: login.php");
-    }
-    
+    }  
 ?>
