@@ -8,32 +8,14 @@
     <a href=""></a>
     <link rel="stylesheet" href="./css/dinhdo/gird.css">
     <link rel="stylesheet" href="./css/dinhdo/responsive.css">
-    <link rel="stylesheet" href="../pcoint/css/Admin/Post_Admin.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../pcoint/css/Admin/PostList_Admin.css">
+    <link rel="stylesheet" href="../pcoint/css/Admin/Post_Admin.css">
+
     <title>Laptop</title>
 
-    <style>
-        table {
-            font-family: arial, sans-serif;
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-        td,
-        th {
-            /* border: 1px solid #dddddd; */
-            text-align: left;
-            padding: 8px;
-        }
-
-        tr:nth-child(even) {
-            background-color: #dddddd;
-        }
-
-        table a{
-            text-decoration: none;
-        }
-    </style>
 </head>
 
 <body>
