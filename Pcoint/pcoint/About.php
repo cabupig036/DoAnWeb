@@ -20,7 +20,7 @@
       <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
 
     <!-- link => tab -->
-    <link rel="stylesheet" href="../Pcoint/css/AE_About.css">
+    <link rel="stylesheet" href="../../Pcoint/pcoint/css/AE_About.css">
     <link rel="stylesheet" href="./js/AE_About.js">
     <link rel="stylesheet" href="./fonts/themify-icons/themify-icons.css">
 
@@ -130,10 +130,11 @@
                   <div class="row d_flex">
                      <div class="col-md-5">
                         <div class="text-bg">
-                           <h1>Computer and <br>laptop shop</h1>
-                           <strong>Free Multipurpose Responsive</strong>
-                           <span>Landing Page 2019</span>
-                           <a href="#">Buy Now</a>
+                           <h1>Pcoint MoG <br>Zen 3</h1>
+                           <strong style="color: #1FD793; font-weight:bold; ">799.99$</strong>
+                           <strong style="text-decoration:line-through; font-size:16px"> 1,099.99 $</strong>
+                           <span>Sale Off 30%</span>
+                           <a href="./ProductDetail.php">Buy Now</a>
                         </div>
                      </div>
                      <div class="col-md-7 padding_right1">
@@ -161,12 +162,15 @@
             <div id="band" class="content-section">
                 <h2 class="section-heading">ABOUT US</h2>
                 <p class="section-sub-heading">One Of The Best</p>
-                <p class="about-text">PCOINT was founded in 2007 in Hamburg, Germany. The founder of the company is interior designer Quach Thai Cong, he is a German
-                    of Vietnamese origin with more than 20 years of experience in the field of design and supply of high-end furniture. In Germany and Europe, the 
-                    THAI CONG brand is famous for its impressive, luxurious and classy designs. In 2014, Thai Cong opened an office and showroom in Ho Chi Minh City.
-                     Thai Cong Vietnam Co., Ltd. brings exquisite designs of interference between Eastern and Western cultures, conquering the most demanding customers. 
-                     rently, Thai Cong company specializes in interior design and decoration projects and provides furniture for villas, individual apartments and 
-                     high-class restaurant, hotel and real estate projects.
+                <p class="about-text">PCOINT was founded in 2020 in SaiGon, VietNam. After many years of trying to try 
+                    the store model inside the store but failed. Realizing that it was necessary to improve the retail 
+                    display of the company's products, in 2021, we began an effort to reform the retail program to improve 
+                    relationships with consumers.<br>
+                    The media initially speculated that Pcoint would flop, but their stores were very successful, outperforming 
+                    competing sales of nearby stores and within three years reaching 1 billion. dollars in annual sales, becoming 
+                    the fastest retailer in history to do it. Over the years, Pcoint has expanded the number of retail locations and 
+                    their geographic reach, with 506 stores across 25 countries worldwide as of 1/2021. High product sales have put Pcoint 
+                    in the ranks. group of leading retailers, with sales of more than 16 billion US dollars globally in 11/2021.
                 </p>
                 <div class="members-list">
                     <div class="member-item">
@@ -243,8 +247,8 @@
                             <div class="place-body">
                                 <p class="place-text">New York Times</p>
                                 <p class="place-text place-text-date" style="color: #ccc;">Robb Report  |  Fri 27 Nov 2016</p>
-                                <p class="place-text">HARPER’S BAZAAR STAR AWARDS 2019 GỌI TÊN 2</p>
-                                <a class="place-btn js-buy-ticket s-full-width">SEE MORE</a>
+                                <p class="place-text">HARPER’S BAZAAR STAR AWARDS 2019</p>
+                                <a data-target="" data-toggle="" class="place-btn js-buy-ticket s-full-width">SEE MORE</a>
                             </div>
                         </div>
 
@@ -313,8 +317,38 @@
                     <a href="#"><i class="ti-tiktok"></i></a>
                     <a href="#"><i class="ti-pinterest"></i></a>
                 </div>
-
             </div>
+            <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="cont">
+                        <h3> <strong class="multi"> Free Multipurpose</strong><br>
+                           Responsive Landing Page 2019
+                        </h3>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="cont_call">
+                        <h3> <strong class="multi"> Call Now</strong><br>
+                           (+1) 12345667890
+                        </h3>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>© 2019 All Rights Reserved. Design by <a href="https://html.design/"> PCOINT</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
             <!-- Buy Tickets -->
             <div class="modal js-modal">
                 <div class="modal-container js-modal-container">
@@ -323,11 +357,12 @@
                     </div>
 
                     <header class="model-header">
-                        <i style="margin-right: 10px; " class="ti-bag"></i>
-                        Tickets
+                        <i style="margin-right: 10px; "class="ti-wordpress"></i>
+                        STORY
                     </header>
                     <div class="modal-body">
-                        <label for="click" class="modal-label">
+                        <img src="../pcoint/images/AE_About-img/190515-pc-world-vietnam-01_resize.jpg" alt="" class="modal-img">
+                        <!-- <label for="click" class="modal-label">
                             <i class="ti-shopping-cart"></i>
                             Tickets, $15 per person
                         </label>
@@ -340,10 +375,10 @@
                         <input id="click1" type="text" class="modal-input" placeholder="Enter email">
                         <button id="buy-tickets">
                             Pay <i class="ti-check"></i>
-                        </button>
+                        </button> -->
                     </div>
                     <div class="modal-footer">
-                        <button class="close js-modal-close">Close</button>
+                        <!-- <button class="close js-modal-close">Close</button> -->
                         <p class="modal-help" style="margin-left:15px;">Need <a href="#">help?</a></p>
                     </div>
                     <div class="clean"></div>
@@ -352,7 +387,7 @@
         </div>
 
         <!-- Javascript buy tickets-->
-        <!-- <script>
+         <script>
             const buyBtns = document.querySelectorAll('.js-buy-ticket')
             const modalOpen = document.querySelector('.js-modal')
             const modalCloses = document.querySelectorAll('.js-modal-close')
@@ -382,11 +417,11 @@
                 event.stopPropagation()
             })
 
-        </script> -->
+        </script> 
 
 
         <!-- Javascript menu mobile -->
-        <!-- <script>
+         <script>
             var header = document.getElementById('header');
             var mobileMenu = document.getElementById('mobile-menu');
             var headerHeight = header.clientHeight;//cách 1 là phải xoá dòng này
@@ -421,7 +456,7 @@
                     }
                 }
             }
-        </script> -->
+        </script> 
 </body>
-
+    
 </html>
