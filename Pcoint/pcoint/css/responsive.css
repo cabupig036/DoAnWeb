@@ -1,0 +1,116 @@
+/* PC */
+@media (min-width: 64em){
+    .pc{
+        display: block;
+    }
+}
+
+/* Tablet & Mobile*/
+@media (max-width: 63.9375em){
+   .hide-on-mobile-tablet{
+       display: none;
+   }
+   .header{
+        display: flex;
+        align-items: center;
+    }
+   .header__cart-list{
+       position: fixed;
+       width: 100%; 
+       top: 120px;
+       right: 0px;
+       padding: 0 64px;
+   }
+    .header__cart-list::before {
+        display: none;
+    }
+
+    .header__cart-list::after{
+        position: absolute;
+        width: 34%;
+        height: 49px;
+        right: 0;
+        top: -11%;
+        content: "";
+        display: block;
+        cursor: default;
+        /* background-color: aquamarine; */
+    }
+    
+}
+/* Tablet */
+@media (min-width: 46.25em ) and (max-width: 63.9375em){
+    .tablet{
+        display: block;
+    }
+    .hide-on-tablet{
+        display: none;
+    }
+    .header__cart{
+        width: 80px;
+    }
+    
+}
+/* Mobile */
+@media (max-width: 46.1875em){
+    .hide-on-mobile{
+        display: none;
+    }
+    .header__sort-bar{
+        display: flex;
+    }
+    .header__navbar2{
+        justify-content: space-between;
+    }
+    .header__logo-img{
+        margin: 0;
+    }
+    .header__logo-link,
+    .header__cart{
+        width: unset;
+    }
+    .header__search{
+        position: fixed;
+        top:120px;
+        right: 0;
+        left: 0;
+        z-index: 1;
+        padding: 0 16px;
+        height: 46px;
+        display: none;
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        animation: mobileSearchSideIn linear 0.3s;
+    }
+    .header__search-checkbox:checked ~ .header__search{
+        display: flex;
+    }
+    .header__search-history{
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 166px;
+        width: 100%;
+    }
+    .header__mobile-search{
+        display: block;
+    }
+    .home-filter {
+        margin-top: 47px;
+    }
+    .app__container{
+        margin-top: 0;
+    }
+    .mobile-category{
+        display: block;
+    }
+    @keyframes mobileSearchSideIn {
+        from{
+            opacity: 0;
+            top:85px;
+        }
+        to{
+            opacity: 1;
+            top:120px;
+        }
+    }
+}

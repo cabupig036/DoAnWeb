@@ -1,0 +1,136 @@
+:root {
+    --white-color: #fff;
+    --back-color: #000;
+    --text-color: #333;
+    --navbar-height: 34px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 100%;
+    line-height: 16px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* Animation */
+
+
+/* Hiện full */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Hiện từ tâm */
+
+@keyframes fadeGrowth {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+/* button style */
+
+.btn {
+    min-width: 124px;
+    height: 34px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--text-color);
+}
+
+.btn.btn--primary {
+    background-color: #f25e19;
+}
+
+.btn.btn--disabled {
+    color: #949494;
+    cursor: default;
+    background-color: #c3c3c3;
+}
+
+
+/* Pagination */
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.pagination-item {
+    list-style-type: none;
+    margin-right: 12px;
+}
+
+.pagination-item--active .pagination-item__link {
+    background-color: #408823;
+    color: white;
+}
+
+.pagination-item--active:hover .pagination-item__link {
+    opacity: 0.6;
+}
+
+.pagination-item__link {
+    display: block;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 16px;
+    min-width: 40px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+/* Note  */
+
+
+/* .header__navbar-user-menu::before{
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: -24px;
+    border-style: solid;
+    border-width: 12px;
+    border-color: transparent transparent white transparent;
+    cursor: pointer;
+    background-color: blue; 
+} */
+
+
+/* .header__navbar-user-menu::after{
+    position: absolute;
+    width: 55%;
+    height: 20px;
+    right: 0px;
+    top: -11%;
+    content: "";
+    display: block;
+    cursor: default;
+} */

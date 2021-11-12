@@ -39,8 +39,9 @@
       </div>
       <!-- end loader -->
       <!-- header -->
-      <header>
+
          <!-- header inner -->
+         <header>
          <div  class="head_top">
             <div class="header">
                <div class="container">
@@ -62,29 +63,19 @@
                            <div class="collapse navbar-collapse" id="navbarsExample04">
                               <ul class="navbar-nav mr-auto">
                                  <li class="nav-item">
-                                    <a class="nav-link" href="./Homepage.php"> HomePage </a>
+                                    <a class="nav-link" href="./Homepage.php" style="color:black;"> HomePage </a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="./Product.php" style="color:gray;">Product</a>
+                                    <a class="nav-link" href="./Product.php" style="color:black;">Product</a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="./About.php" style="color:gray;">About</a>
+                                    <a class="nav-link" href="./About.php"style="color:black;">About</a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="./Contact.php" style="color:gray;">Contact us</a>
+                                    <a class="nav-link" href="./Contact.php" style="color:black;">Contact us</a>
                                  </li>
-                              </ul>
-                              <?php
-                                 session_start();
-                                 // echo $_SESSION['login'];
-                                 if($_SESSION['login']) {
-                                    echo '<div class="sign_btn"><a href="">Avatar</a></div>';
-                                    echo '<a class="nav-link" href="./../../login-form-v1/Login_v1/Logout.php" style="color:gray;">Logout</a>';
-                                 } else {
-                                    echo '<div class="sign_btn"><a href="./../../login-form-v1/Login_v1/Login.php">Sign in</a></div>';
-                                 }
-                              ?>
-                           </div>
+                                 </ul>
+                              <div class="sign_btn"><a href="/login-form-v1/Login_v1/Login.php">Sign in</a></div>
                         </nav>
                      </div>
                   </div>
