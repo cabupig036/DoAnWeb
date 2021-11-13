@@ -5,31 +5,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <a href=""></a>
-    <link rel="stylesheet" href="./css/dinhdo/gird.css">
-    <link rel="stylesheet" href="./css/dinhdo/responsive.css">
-    <link rel="stylesheet" href="./css/dinhdo/main.css">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../pcoint/css/style.css">
+
+
+    <link rel="stylesheet" href="../pcoint/css/dinhdo/gird.css">
+    <link rel="stylesheet" href="../pcoint/css/dinhdo/responsive.css">
+    <link rel="stylesheet" href="../pcoint/css/dinhdo/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+    <!-- Header/Footer source -->
+    <!-- bootstrap css -->
+    
+
+      <!-- <link rel="stylesheet" href="css/responsive.css">
+
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css"> -->
     <title>Laptop</title>
 </head>
 <body>
 <div class="main ">
 <div class="main">
 
+<header>
+         <!-- header inner -->
+         <div  class="head_top">
+            <div class="header">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                        <div class="full">
+                           <div class="center-desk">
+                              <div class="logo">
+                                 <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                        <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                           <span class="navbar-toggler-icon"></span>
+                           </button>
+                           <div class="collapse navbar-collapse" id="navbarsExample04">
+                              <ul class="navbar-nav mr-auto">
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="./Homepage.php"> HomePage </a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="./Product.php" style="color:gray;">Product</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="./About.php" style="color:gray;">About</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="./Contact.php" style="color:gray;">Contact us</a>
+                                 </li>
+                              </ul>
+                              <div class="sign_btn"><a href="/login-form-v1/Login_v1/Login.php">Sign in</a></div>
+                           </div>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- end header inner -->
+            <!-- end header -->
+            <!-- banner -->
+            <section class="banner_main">
+               <div class="container-fluid">
+                  <div class="row d_flex">
+                     <div class="col-md-5">
+                        <div class="text-bg">
+                           <h1>Computer and <br>laptop shop</h1>
+                           <strong>Free Multipurpose Responsive</strong>
+                           <span>Landing Page 2019</span>
+                           <a href="#">Buy Now</a>
+                        </div>
+                     </div>
+                     <div class="col-md-7 padding_right1">
+                        <div class="text-img">
+                           <figure><img src="images/top_img.png" alt="#"/></figure>
+                           <h3>01</h3>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </header>
+      <!-- end banner -->
+
 <div class="app__container">
     <div class="grid wide">
         <div class="row">
             <div class="col l-2 m-0 c-0">
                 <nav class="category">
-                    <h3 class="category__heading"><i class="category__heading-icon fas fa-list-ul"></i>Danh Mục</h3>
+                    <h3 class="category__heading" style="margin-top:16px"><i class="category__heading-icon fas fa-list-ul"></i>Danh Mục</h3>
                     <ul class="category-list">
                         <li class="category-item category-item--active">
-                            <a href="#" class="category-item__link">LAPTOP DELL</a>
+                            <a href="#" class="category-item__link">MACBOOK</a>
                         </li>
                         <li class="category-item">
                             <a href="#" class="category-item__link">LAPTOP ASUS</a>
                         </li>
                         <li class="category-item">
-                            <a href="#" class="category-item__link">MACBOOK</a>
+                            <a href="#" class="category-item__link">LAPTOP DELL</a>
                         </li>
                     </ul>
                 </nav>
@@ -60,7 +144,7 @@
                             <a href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="home-product-item-info-wrap">
-                                    <h4 class="home-product-item-name">[Mã FMCGMALL - 8% đơn 250K] Son môi OHUI Rouge Real Lipstick 3.5g</h4>
+                                    <h4 class="home-product-item-name">MACBOOK 2021 Phiên bản Chip M1Pro_Max 16 inch</h4>
                                     <div class="home-product-item-price">
                                         <div class="home-product-item-price-old">đ770.000</div>
                                         <div class="home-product-item-price-current">đ650.000</div>
@@ -77,7 +161,7 @@
                                         <span class="home-product-item__sold">88 đã bán</span>
                                     </div>
                                     <div class="home-product-item-origin">
-                                        <span class="home-product-item__band">Ohui</span>
+                                        <span class="home-product-item__band">Laptop</span>
                                         <span class="home-product-item__area">TP.Hồ Chí Minh</span>
                                     </div>
                                     <div class="home-product-item__favourite">
@@ -94,7 +178,7 @@
                             <a href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="home-product-item-info-wrap">
-                                    <h4 class="home-product-item-name">[Mã FMCGMALL - 8% đơn 250K] Son môi OHUI Rouge Real Lipstick 3.5g</h4>
+                                    <h4 class="home-product-item-name">MACBOOK 2021 Phiên bản Chip M1Pro_Max 16 inch</h4>
                                     <div class="home-product-item-price">
                                         <div class="home-product-item-price-old">đ770.000</div>
                                         <div class="home-product-item-price-current">đ650.000</div>
@@ -111,7 +195,7 @@
                                         <span class="home-product-item__sold">88 đã bán</span>
                                     </div>
                                     <div class="home-product-item-origin">
-                                        <span class="home-product-item__band">Ohui</span>
+                                        <span class="home-product-item__band">Laptop</span>
                                         <span class="home-product-item__area">TP.Hồ Chí Minh</span>
                                     </div>
                                     <div class="home-product-item__favourite">
@@ -128,7 +212,7 @@
                             <a href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="home-product-item-info-wrap">
-                                    <h4 class="home-product-item-name">[Mã FMCGMALL - 8% đơn 250K] Son môi OHUI Rouge Real Lipstick 3.5g</h4>
+                                    <h4 class="home-product-item-name">MACBOOK 2021 Phiên bản Chip M1Pro_Max 16 inch</h4>
                                     <div class="home-product-item-price">
                                         <div class="home-product-item-price-old">đ770.000</div>
                                         <div class="home-product-item-price-current">đ650.000</div>
@@ -145,7 +229,7 @@
                                         <span class="home-product-item__sold">88 đã bán</span>
                                     </div>
                                     <div class="home-product-item-origin">
-                                        <span class="home-product-item__band">Ohui</span>
+                                        <span class="home-product-item__band">Laptop</span>
                                         <span class="home-product-item__area">TP.Hồ Chí Minh</span>
                                     </div>
                                     <div class="home-product-item__favourite">
@@ -162,7 +246,7 @@
                             <a href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="home-product-item-info-wrap">
-                                    <h4 class="home-product-item-name">[Mã FMCGMALL - 8% đơn 250K] Son môi OHUI Rouge Real Lipstick 3.5g</h4>
+                                    <h4 class="home-product-item-name">MACBOOK 2021 Phiên bản Chip M1Pro_Max 16 inch</h4>
                                     <div class="home-product-item-price">
                                         <div class="home-product-item-price-old">đ770.000</div>
                                         <div class="home-product-item-price-current">đ650.000</div>
@@ -179,7 +263,7 @@
                                         <span class="home-product-item__sold">88 đã bán</span>
                                     </div>
                                     <div class="home-product-item-origin">
-                                        <span class="home-product-item__band">Ohui</span>
+                                        <span class="home-product-item__band">Laptop</span>
                                         <span class="home-product-item__area">TP.Hồ Chí Minh</span>
                                     </div>
                                     <div class="home-product-item__favourite">
@@ -196,7 +280,7 @@
                             <a href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="home-product-item-info-wrap">
-                                    <h4 class="home-product-item-name">[Mã FMCGMALL - 8% đơn 250K] Son môi OHUI Rouge Real Lipstick 3.5g</h4>
+                                    <h4 class="home-product-item-name">MACBOOK 2021 Phiên bản Chip M1Pro_Max 16 inch</h4>
                                     <div class="home-product-item-price">
                                         <div class="home-product-item-price-old">đ770.000</div>
                                         <div class="home-product-item-price-current">đ650.000</div>
@@ -213,7 +297,7 @@
                                         <span class="home-product-item__sold">88 đã bán</span>
                                     </div>
                                     <div class="home-product-item-origin">
-                                        <span class="home-product-item__band">Ohui</span>
+                                        <span class="home-product-item__band">Laptop</span>
                                         <span class="home-product-item__area">TP.Hồ Chí Minh</span>
                                     </div>
                                     <div class="home-product-item__favourite">
@@ -230,7 +314,7 @@
                             <a href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="home-product-item-info-wrap">
-                                    <h4 class="home-product-item-name">[Mã FMCGMALL - 8% đơn 250K] Son môi OHUI Rouge Real Lipstick 3.5g</h4>
+                                    <h4 class="home-product-item-name">MACBOOK 2021 Phiên bản Chip M1Pro_Max 16 inch</h4>
                                     <div class="home-product-item-price">
                                         <div class="home-product-item-price-old">đ770.000</div>
                                         <div class="home-product-item-price-current">đ650.000</div>
@@ -247,7 +331,7 @@
                                         <span class="home-product-item__sold">88 đã bán</span>
                                     </div>
                                     <div class="home-product-item-origin">
-                                        <span class="home-product-item__band">Ohui</span>
+                                        <span class="home-product-item__band">Laptop</span>
                                         <span class="home-product-item__area">TP.Hồ Chí Minh</span>
                                     </div>
                                     <div class="home-product-item__favourite">
@@ -264,7 +348,7 @@
                             <a href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="home-product-item-info-wrap">
-                                    <h4 class="home-product-item-name">[Mã FMCGMALL - 8% đơn 250K] Son môi OHUI Rouge Real Lipstick 3.5g</h4>
+                                    <h4 class="home-product-item-name">MACBOOK 2021 Phiên bản Chip M1Pro_Max 16 inch</h4>
                                     <div class="home-product-item-price">
                                         <div class="home-product-item-price-old">đ770.000</div>
                                         <div class="home-product-item-price-current">đ650.000</div>
@@ -281,7 +365,7 @@
                                         <span class="home-product-item__sold">88 đã bán</span>
                                     </div>
                                     <div class="home-product-item-origin">
-                                        <span class="home-product-item__band">Ohui</span>
+                                        <span class="home-product-item__band">Laptop</span>
                                         <span class="home-product-item__area">TP.Hồ Chí Minh</span>
                                     </div>
                                     <div class="home-product-item__favourite">
@@ -298,7 +382,7 @@
                             <a href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="home-product-item-info-wrap">
-                                    <h4 class="home-product-item-name">[Mã FMCGMALL - 8% đơn 250K] Son môi OHUI Rouge Real Lipstick 3.5g</h4>
+                                    <h4 class="home-product-item-name">MACBOOK 2021 Phiên bản Chip M1Pro_Max 16 inch</h4>
                                     <div class="home-product-item-price">
                                         <div class="home-product-item-price-old">đ770.000</div>
                                         <div class="home-product-item-price-current">đ650.000</div>
@@ -315,75 +399,7 @@
                                         <span class="home-product-item__sold">88 đã bán</span>
                                     </div>
                                     <div class="home-product-item-origin">
-                                        <span class="home-product-item__band">Ohui</span>
-                                        <span class="home-product-item__area">TP.Hồ Chí Minh</span>
-                                    </div>
-                                    <div class="home-product-item__favourite">
-                                        <i class="fas fa-check"></i> Yêu thích
-                                    </div>
-                                    <div class="home-product-item__sale-off">
-                                        <span class="home-product-item__sale-off-percent">10%</span>
-                                        <span class="home-product-item__sale-off-label">GIẢM</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col l-2-4 m-4 c-6" style="margin-top: 15px;">
-                            <a href="#" class="home-product-item">
-                                <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
-                                <div class="home-product-item-info-wrap">
-                                    <h4 class="home-product-item-name">[Mã FMCGMALL - 8% đơn 250K] Son môi OHUI Rouge Real Lipstick 3.5g</h4>
-                                    <div class="home-product-item-price">
-                                        <div class="home-product-item-price-old">đ770.000</div>
-                                        <div class="home-product-item-price-current">đ650.000</div>
-                                    </div>
-                                    <div class="home-product-item-action">
-
-                                        <div class="home-product-item-rating">
-                                            <i class="home-product-item-rating--gold fas fa-star"></i>
-                                            <i class="home-product-item-rating--gold fas fa-star"></i>
-                                            <i class="home-product-item-rating--gold fas fa-star"></i>
-                                            <i class="home-product-item-rating--gold fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                        </div>
-                                        <span class="home-product-item__sold">88 đã bán</span>
-                                    </div>
-                                    <div class="home-product-item-origin">
-                                        <span class="home-product-item__band">Ohui</span>
-                                        <span class="home-product-item__area">TP.Hồ Chí Minh</span>
-                                    </div>
-                                    <div class="home-product-item__favourite">
-                                        <i class="fas fa-check"></i> Yêu thích
-                                    </div>
-                                    <div class="home-product-item__sale-off">
-                                        <span class="home-product-item__sale-off-percent">10%</span>
-                                        <span class="home-product-item__sale-off-label">GIẢM</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col l-2-4 m-4 c-6" style="margin-top: 15px;">
-                            <a href="#" class="home-product-item">
-                                <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
-                                <div class="home-product-item-info-wrap">
-                                    <h4 class="home-product-item-name">[Mã FMCGMALL - 8% đơn 250K] Son môi OHUI Rouge Real Lipstick 3.5g</h4>
-                                    <div class="home-product-item-price">
-                                        <div class="home-product-item-price-old">đ770.000</div>
-                                        <div class="home-product-item-price-current">đ650.000</div>
-                                    </div>
-                                    <div class="home-product-item-action">
-
-                                        <div class="home-product-item-rating">
-                                            <i class="home-product-item-rating--gold fas fa-star"></i>
-                                            <i class="home-product-item-rating--gold fas fa-star"></i>
-                                            <i class="home-product-item-rating--gold fas fa-star"></i>
-                                            <i class="home-product-item-rating--gold fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                        </div>
-                                        <span class="home-product-item__sold">88 đã bán</span>
-                                    </div>
-                                    <div class="home-product-item-origin">
-                                        <span class="home-product-item__band">Ohui</span>
+                                        <span class="home-product-item__band">Laptop</span>
                                         <span class="home-product-item__area">TP.Hồ Chí Minh</span>
                                     </div>
                                     <div class="home-product-item__favourite">
@@ -422,7 +438,39 @@
     </div>
 </div>
 
-
+<!--  footer -->
+<footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="cont">
+                        <h3> <strong class="multi"> Free Multipurpose</strong><br>
+                           Responsive Landing Page 2019
+                        </h3>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="cont_call">
+                        <h3> <strong class="multi"> Call Now</strong><br>
+                           (+1) 12345667890
+                        </h3>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>© 2019 All Rights Reserved. Design by <a href="https://html.design/"> Free Html Templates</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
 
 </div>
 </body>
