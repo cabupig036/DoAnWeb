@@ -2,10 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ListUser Management</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <a href=""></a>
+    <link rel="stylesheet" href="./css/dinhdo/gird.css">
+    <link rel="stylesheet" href="./css/dinhdo/responsive.css">
+    <link rel="stylesheet" href="../pcoint/css/Admin/Post_Admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round|Open+Sans">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,7 +17,33 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/AE_Admin.css">
+    <title>Laptop</title>
+
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            /* border: 1px solid #dddddd; */
+            text-align: center;
+            padding: 5px;
+            text-indent: 20px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
+        table a{
+            text-decoration: none;
+        }
+    </style>
 </head>
+
 
 <body>
     <!--  menu -->

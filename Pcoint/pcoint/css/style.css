@@ -449,45 +449,43 @@ button {
 
 /* about section  */
 
-
-/* .about {
-     margin-top: 90px;
-     background: #fff;
-     padding: 60px 0; 
+.about {
+    margin-top: 90px;
+    background: #fff;
+    padding: 60px 0;
 }
 
 .about .titlepage h2 {
-     margin-bottom: 20px;
-     color: #fff;
+    margin-bottom: 20px;
+    color: #fff;
 }
 
 .about .titlepage span {
-     color: #fff;
-     font-size: 17px;
+    color: #fff;
+    font-size: 17px;
 }
 
 .about .about_box {
-     text-align: center;
+    text-align: center;
 }
 
 .about .about_box figure {
-     margin: 0;
+    margin: 0;
 }
 
 .about .about_box figure img {
-     width: 100%;
+    width: 100%;
 }
 
 .about .about_box .read_more {
-     background: #000;
-     color: #fff;
-     border-radius: 15px;
+    background: #000;
+    color: #fff;
+    border-radius: 15px;
 }
 
 .about .about_box .read_more:hover {
-     background: #f55171;
+    background: #f55171;
 }
- */
 
 
 /** end about section **/
