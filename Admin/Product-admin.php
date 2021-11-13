@@ -7,13 +7,13 @@
     <a href=""></a>
     
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="../pcoint/css/style.css">
+    <link rel="stylesheet" href="../Pcoint/pcoint/css/style.css">
 
 
-    <link rel="stylesheet" href="../pcoint/css/dinhdo/gird.css">
-    <link rel="stylesheet" href="../pcoint/css/dinhdo/responsive.css">
+    <link rel="stylesheet" href="../Admin/css/dinhdo/gird.css">
+    <link rel="stylesheet" href="../Admin/css/dinhdo/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-    <link rel="stylesheet" href="../pcoint/css/dinhdo/main.css">
+    <link rel="stylesheet" href="../Admin/css/dinhdo/main.css">
 
     <!-- Header/Footer source -->
     <!-- bootstrap css -->
@@ -44,7 +44,7 @@
         <div class="row">
             <div class="col l-12 m-12 c-12" style="height:1200px">
                 <div class="home-filter hide-on-mobile-tablet" style="justify-content: end;">
-                <button class="button-edit" style="min-width:60px; padding:12px 0; background-color: #ccc;">Sửa</button>
+                <button class="button-edit" style="min-width:60px; padding:12px 0; background-color: #ccc;">Thêm</button>
 
                 </div>
 
@@ -54,7 +54,7 @@
                             <div href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="button-wrap" style="display:flex; justify-content: space-around;padding:12px;">
-                                   <button class="button-add" style="min-width:60px; padding:12px 0;">Thêm</button>
+                                   <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Sửa</button>
                                    <button class="button-delete" style="min-width:60px; padding:12px 0;">Xóa</button>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@
                             <div href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="button-wrap" style="display:flex; justify-content: space-around;padding:12px;">
-                                   <button class="button-add" style="min-width:60px; padding:12px 0;">Thêm</button>
+                                   <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Sửa</button>
                                    <button class="button-delete" style="min-width:60px; padding:12px 0;">Xóa</button>
                                 </div>
                             </div>
@@ -72,7 +72,7 @@
                             <div href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="button-wrap" style="display:flex; justify-content: space-around;padding:12px;">
-                                   <button class="button-add" style="min-width:60px; padding:12px 0;">Thêm</button>
+                                   <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Sửa</button>
                                    <button class="button-delete" style="min-width:60px; padding:12px 0;">Xóa</button>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@
                             <div href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="button-wrap" style="display:flex; justify-content: space-around;padding:12px;">
-                                   <button class="button-add" style="min-width:60px; padding:12px 0;">Thêm</button>
+                                   <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Sửa</button>
                                    <button class="button-delete" style="min-width:60px; padding:12px 0;">Xóa</button>
                                 </div>
                             </div>
@@ -90,7 +90,7 @@
                             <div href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="button-wrap" style="display:flex; justify-content: space-around;padding:12px;">
-                                   <button class="button-add" style="min-width:60px; padding:12px 0;">Thêm</button>
+                                   <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Sửa</button>
                                    <button class="button-delete" style="min-width:60px; padding:12px 0;">Xóa</button>
                                 </div>
                             </div>
@@ -99,7 +99,7 @@
                             <div href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="button-wrap" style="display:flex; justify-content: space-around;padding:12px;">
-                                   <button class="button-add" style="min-width:60px; padding:12px 0;">Thêm</button>
+                                   <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Sửa</button>
                                    <button class="button-delete" style="min-width:60px; padding:12px 0;">Xóa</button>
                                 </div>
                             </div>
@@ -108,7 +108,7 @@
                             <div href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="button-wrap" style="display:flex; justify-content: space-around;padding:12px;">
-                                   <button class="button-add" style="min-width:60px; padding:12px 0;">Thêm</button>
+                                   <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Sửa</button>
                                    <button class="button-delete" style="min-width:60px; padding:12px 0;">Xóa</button>
                                 </div>
                             </div>
@@ -117,7 +117,7 @@
                             <div href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="button-wrap" style="display:flex; justify-content: space-around;padding:12px;">
-                                   <button class="button-add" style="min-width:60px; padding:12px 0;">Thêm</button>
+                                   <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Sửa</button>
                                    <button class="button-delete" style="min-width:60px; padding:12px 0;">Xóa</button>
                                 </div>
                             </div>

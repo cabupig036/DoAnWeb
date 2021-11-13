@@ -42,102 +42,106 @@
             text-decoration: none;
         }
     </style>
+
 </head>
 
 <body>
-    <div class="main ">
-        <div class="main">
-        <div class="col-sm-1">
+
+<table>
+    <br/>
+    <tr>
+    <div class="col-sm-1">
                         <button type="button" style="margin: 0 0 0 85em;" class="btn btn-info add-new" ><i class="fa fa-plus"></i> Add New</button>
                     </div>
-            <div class="app__container">
-                <div class="grid wide">
-                    <div class="row">
-                            <table>
-                                    <th style="width: 20%;">Image</th>
-                                    <th style="width: 16%;">ID</th>
-                                    <th style="width: 50%;">Content</th>               
-                                    <th colspan="2">Function</th>
-
-                                </tr>
-                                <tr>
-                                    <td><img src="./images/AE_About-img/190515-pc-world-vietnam-01_resize.jpg" width="50%" class=""></td>
-                                    <td>1</td>
-                                    <td>Maria Anders Centro comercial Moctezum Island Trading</td>
-                                    <td><a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-                                    <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a></td>
-                                </tr>
-                                <tr>
-                                    <td><img src="./images/AE_About-img/96bbao-chi-15610505946001909450090-crop-1561050602186271427839.jpg" width="50%" class=""></td>
-                                    <td>2</td>
-                                    <td>Maria Anders Centro comercial Moctezum Island Trading</td>
-                                    <td><a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-                                    <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a></td>
-                                </tr>
-                                </tr>
-                                <tr>
-                                    <td><img src="./images/AE_About-img/sb-blog-programming_800x450.jpg" width="50%" class=""></td>
-                                    <td>3</td>
-                                    <td>Maria Anders Centro comercial Moctezum Island Trading</td>
-                                    <td><a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-                                    <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a></td>
-                                </tr>
-                                </tr>
-                                <tr>
-                                    <td><img src="./images/AE_About-img/thumb_800x501.jpg" width="50%" class=""></td>
-                                    <td>4</td>
-                                    <td>Maria Anders Centro comercial Moctezum Island Trading</td>
-                                    <td><a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-                                    <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a></td>
-                                </tr>
-                                </tr>
-                                <tr>
-                                    <td><img src="./images/AE_About-img/thumb2.jpg" width="50%" class=""></td>
-                                    <td>5</td>
-                                    <td>Maria Anders Centro comercial Moctezum Island Trading</td>
-                                    <td><a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-                                    <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a></td>
-                                </tr>
-                                </tr>
-                                <tr>
-                                    <td><img src="./images/AE_About-img/thumb3.jpg" width="50%" class=""></td>
-                                    <td>6</td>
-                                    <td>Maria Anders Centro comercial Moctezum Island Trading</td>
-                                    <td><a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-                                    <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a></td>
-                                </tr>
-                                </tr>
-                            </table>
-
-                        </div>
-
-                    </div>
-
-                    <!-- <ul class="pagination home-product__pagination">
-                        <li class="pagination-item ">
-                            <a href="" class="pagination-item__link"><i class="pagination-item__icon fas fa-chevron-left"></i></a>
-                        </li>
-                        <li class="pagination-item pagination-item--active">
-                            <a href="" class="pagination-item__link">1</a>
-                        </li>
-                        <li class="pagination-item">
-                            <a href="" class="pagination-item__link">2</a>
-                        </li>
-                        <li class="pagination-item">
-                            <a href="" class="pagination-item__link">3</a>
-                        </li>
-                        <li class="pagination-item">
-                            <a href="" class="pagination-item__link"><i class="pagination-item__icon fas fa-chevron-right"></i></a>
-                        </li>
-                    </ul> -->
-                </div>
-            </div>
-        </div>
     </div>
+    </tr>
+    <tr>
+    <div class="main">
+       
+       <div class="app__container">
+           <div class="grid wide">
+               <div class="row">
+                       <table>
+                               <th style="width: 30%;">ID</th>
+                               <th style="width: 50%;">Content</th>               
+                               <th colspan="2" style="width: 20%;">Function</th>
 
+                           </tr>
+                           <tr>
+                               <td>1</td>
+                               <td>Maria Anders Centro comercial Moctezum Island Trading</td>
+                               <td><a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                               <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a></td>
+                           </tr>
+                           <tr>
+                               <td>2</td>
+                               <td>Maria Anders Centro comercial Moctezum Island Trading</td>
+                               <td><a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                               <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a></td>
+                           </tr>
+                           </tr>
+                           <tr>
+                               <td>3</td>
+                               <td>Maria Anders Centro comercial Moctezum Island Trading</td>
+                               <td><a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                               <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a></td>
+                           </tr>
+                           </tr>
+                           <tr>
+                               <td>4</td>
+                               <td>Maria Anders Centro comercial Moctezum Island Trading</td>
+                               <td><a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                               <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a></td>
+                           </tr>
+                           </tr>
+                           <tr>
+                               <td>5</td>
+                               <td>Maria Anders Centro comercial Moctezum Island Trading</td>
+                               <td><a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                               <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a></td>
+                           </tr>
+                           </tr>
+                           <tr>
+                               <td>6</td>
+                               <td>Maria Anders Centro comercial Moctezum Island Trading</td>
+                               <td><a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                               <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a></td>
+                           </tr>
+                           </tr>
+                       </table>
 
+                   </div>
 
-    </div>
+               </div>
+
+               <!-- <ul class="pagination home-product__pagination">
+                   <li class="pagination-item ">
+                       <a href="" class="pagination-item__link"><i class="pagination-item__icon fas fa-chevron-left"></i></a>
+                   </li>
+                   <li class="pagination-item pagination-item--active">
+                       <a href="" class="pagination-item__link">1</a>
+                   </li>
+                   <li class="pagination-item">
+                       <a href="" class="pagination-item__link">2</a>
+                   </li>
+                   <li class="pagination-item">
+                       <a href="" class="pagination-item__link">3</a>
+                   </li>
+                   <li class="pagination-item">
+                       <a href="" class="pagination-item__link"><i class="pagination-item__icon fas fa-chevron-right"></i></a>
+                   </li>
+               </ul> -->
+               </div>
+       </div>
+   </div>
+</div>
+
+    </tr>
+
+</table>
+      
+
+  
 </body>
 
-</html>
+</html> 
