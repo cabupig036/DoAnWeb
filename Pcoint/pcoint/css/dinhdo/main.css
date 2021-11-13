@@ -256,6 +256,7 @@ html {
 
 .home-product-item-img {
     width: 100%;
+    display: block;
     height: 192px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     /* padding-top: 100%;*/
@@ -463,4 +464,11 @@ i.home-product-item-like--fill {
     height: 30px;
     line-height: 30px;
     text-align: center;
+}
+
+
+/* Productadmin */
+
+.button-add {
+    padding: 1200px;
 }
