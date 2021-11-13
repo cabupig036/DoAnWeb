@@ -44,7 +44,7 @@
         <div class="row">
             <div class="col l-12 m-12 c-12" style="height:1200px">
                 <div class="home-filter hide-on-mobile-tablet" style="justify-content: end;">
-                <button class="button-edit" style="min-width:60px; padding:10px 0; background-color: #ccc;">Sửa</button>
+                <button class="button-edit" style="min-width:60px; padding:12px 0; background-color: #ccc;">Sửa</button>
 
                 </div>
 

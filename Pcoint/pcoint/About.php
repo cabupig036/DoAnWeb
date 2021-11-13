@@ -24,62 +24,12 @@
     <link rel="stylesheet" href="./js/AE_About.js">
     <link rel="stylesheet" href="./fonts/themify-icons/themify-icons.css">
 
-    <style>
-        #nav li:hover > a{
-            color:#000;
-            background-color:#ccc;
-        }
-
-        .search-btn:hover {
-            color: black;
-            background-color: red;
-        }
-
-        .mobile-menu-btn:hover {
-            color: #000 !important;
-            background-color: #ccc;
-        }
-        .contact-email:hover{
-            color:#000 !important;
-            /* background-color: #ccc; */
-        }
-    </style>
+    
 </head>
 
 <body>
     <div id="main">
-        <!-- <div id="header"> -->
-            <!-- BEGIN:NAV -->
-            <!-- ul#nav>li*5>a -->
-            <!-- <ul id="nav">
-                <li style="display: inline-block;"><a href="#">Home</a></li>
-                <li><a href="#band">Band</a></li>
-                <li><a href="#tour">Tour</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li>
-                    <a href="#">More <i style="font-size: 14px;" class="ti-angle-down"></i></a>
-
-                    <ul class="subnav">
-                        <li><a href="#">Merchandise</a></li>
-                        <li><a href="#">Extras</a></li>
-                        <li><a href="#">Media</a></li>
-                    </ul>
-                </li>
-            </ul> -->
-            <!-- END:NAV -->
-
-            <!-- Begin: search button -->
-            <!-- <div class="search-btn">
-                <a style="text-decoration: none; color: white;" href="#"><i class="ti-search"></i></a>
-            </div>
-
-            <div id="mobile-menu" class="mobile-menu-btn">
-                <i class="ti-menu"></i>
-            </div> -->
-            <!-- End: search button -->
-        <!-- </div> -->
-
-
+      
         <header>
          <!-- header inner -->
          <div  class="head_top">
@@ -103,7 +53,7 @@
                            <div class="collapse navbar-collapse" id="navbarsExample04">
                               <ul class="navbar-nav mr-auto">
                                  <li class="nav-item">
-                                    <a class="nav-link" href="./Homepage.php"> HomePage </a>
+                                    <a class="nav-link"  href="./Homepage.php"> HomePage </a>
                                  </li>
                                  <li class="nav-item">
                                     <a class="nav-link" href="./Product.php" style="color:gray;">Product</a>
@@ -150,12 +100,6 @@
       </header>
       <!-- end banner -->
 
-        <!-- <div id="slider">
-            <div class="text-content">
-                <h2 style="color:white;" class="text-heading">New York</h2>
-                <div style="color:white;" class="text-description">The atmosphere in New York is lorem ipsum.</div>
-            </div>
-        </div> -->
 
         <div id="content">
             <!-- About section -->
@@ -195,12 +139,7 @@
                     <h2 class="section-heading ">PCOINT STORY</h2>
                     <p class="section-sub-heading ">Our Journey. Look</p>
 
-                    <!-- <ul class="tickets">
-                        <li>September <span class="sold-out">Sold out</span></li>
-                        <li>October <span class="sold-out">Sold out</span></li>
-                        <li>November <span class="quantily">3</span></li>
-                    </ul> -->
-
+                
                     <!-- place list -->
                     <div class="place-list">
                         <div class="place-item s-col-ful mt-16">
@@ -267,39 +206,7 @@
                 </div>
             </div>
 
-            <!-- Contact section
-            <div id="contact" class="content-section">
-                <h2 class="section-heading">CONTACT</h2>
-                <p class="section-sub-heading">Fan? Drop a note!</p>
-
-                <div class="row contact-content">
-                    <div class="col col-two s-col-ful contact-info">
-                        <p><i class="ti-location-pin contact-icon"></i>Chicago, US</p>
-                        <p><i class="ti-mobile contact-icon"></i>Phone: <a href="tel:+00 151515" style="text-decoration: none; color:dimgrey"class="contact-email">+00 151515</a></p>
-                        <p><i class="ti-email contact-icon"></i>Email: <a href="mailto:dotran260@gmail.com" style="text-decoration: none;color:dimgrey" class="contact-email">dotran260@gmail.com</a></p>
-                    </div>
-                    <div class="col col-two s-col-ful contact-form">
-                        <form action="">
-                            <div class="row">
-                                <div class="col col-two s-col-ful">
-                                    <input type="text" placeholder="Name" required name="" id="" class="form-control">
-                                </div>
-                                <div class="col s-mt-16 col-two s-col-ful">
-                                    <input type="email" placeholder="Email" required name="" id="" class="form-control">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col col-full mt-8">
-                                    <input type="message" placeholder="Message" required name="" id=""
-                                        class="form-control">
-                                </div>
-                            </div>
-                            <input type="submit" value="SEND" class="mt-8 contact-btn s-full-width">
-                        </form>
-                    </div>
-                    <div class="clean"></div>
-                </div> -->
-
+          
             </div>
             <div class="map-section">
                 <!-- <img src="./images/AE_About-img/thumb2.jpg" alt="Map" class="map-img"> -->
@@ -362,19 +269,7 @@
                     </header>
                     <div class="modal-body">
                         <img src="../pcoint/images/AE_About-img/190515-pc-world-vietnam-01_resize.jpg" alt="" class="modal-img">
-                        <!-- <label for="click" class="modal-label">
-                            <i class="ti-shopping-cart"></i>
-                            Tickets, $15 per person
-                        </label>
-                        <input id="click" type="text" class="modal-input" placeholder="How many?">
-
-                        <label for="click1" class="modal-label">
-                            <i class="ti-user"></i>
-                            Send To
-                        </label>
-                        <input id="click1" type="text" class="modal-input" placeholder="Enter email">
-                        <button id="buy-tickets">
-                            Pay <i class="ti-check"></i>
+        
                         </button> -->
                     </div>
                     <div class="modal-footer">
