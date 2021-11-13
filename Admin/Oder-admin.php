@@ -47,9 +47,14 @@
 <body>
     <div class="main ">
         <div class="main">
-        <div class="col-sm-1">
+<table>
+<br/>
+    <tr>
+    <div class="col-sm-1">
                         <button type="button" style="margin: 0 0 0 85em;" class="btn btn-info add-new" ><i class="fa fa-plus"></i> Add New</button>
                     </div>
+    </tr>
+</table>
             <div class="app__container">
                 <div class="grid wide">
                     <div class="row">
