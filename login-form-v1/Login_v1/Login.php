@@ -69,8 +69,8 @@
 						</a>
 					</div>
 
-					<div class="text-center p-t-136">
-						<a class="txt2" href="/DoAnWeb/login-form-v1/Register_v1/Register.php">
+					<div class="text-center p-t-20">
+						<a class="txt2" href="../Register_v1/Register.php">
 							Create your Account
 							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
 						</a>
