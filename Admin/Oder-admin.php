@@ -49,11 +49,10 @@
         <div class="main">
 <table>
 <br/>
-    <tr>
-    <div class="col-sm-1">
-                        <button type="button" style="margin: 0 0 0 85em;" class="btn btn-info add-new" ><i class="fa fa-plus"></i> Add New</button>
-                    </div>
-    </tr>
+
+    <div class="grid wide" style="display:flex;justify-content:end;margin-bottom:12px;">
+         <button type="button" class="btn btn-info add-new" ><i class="fa fa-plus"></i> Add New</button>
+    </div>
 </table>
             <div class="app__container">
                 <div class="grid wide">
