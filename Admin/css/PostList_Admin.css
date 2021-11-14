@@ -1,29 +1,77 @@
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+body {
+    color: #404E67;
+    background: #F5F7FA;
+    font-family: 'Open Sans', sans-serif;
 }
 
-td,
-th {
-    /* border: 1px solid #dddddd; */
-    text-align: left;
-    padding: 8px;
+.table-wrapper {
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 }
 
-tr:nth-child(even) {
-    background-color: #dddddd;
+.table-title {
+    padding-bottom: 10px;
+    margin: 0 0 10px;
 }
 
-table a {
-    text-decoration: none;
-    color: rgb(59, 59, 204);
+.table-title h2 {
+    margin: 6px 0 0;
+    font-size: 22px;
 }
 
-table a:hover {
-    color: red;
+.table-title .add-new {
+    float: right;
+    height: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: none;
+    min-width: 100px;
+    line-height: 13px;
 }
 
-table a:active {
-    color: brown;
+.table-title .add-new i {
+    margin-right: 4px;
+}
+
+table.table td a {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+    min-width: 24px;
+}
+
+table.table td a.edit {
+    color: #a58a37;
+}
+
+table.table td a.delete {
+    color: #973620;
+}
+
+table.table td i {
+    font-size: 19px;
+}
+
+table.table td a.add i {
+    font-size: 24px;
+    margin-right: -1px;
+    position: relative;
+    top: 3px;
+}
+
+table.table .form-control {
+    height: 32px;
+    line-height: 32px;
+    box-shadow: none;
+    border-radius: 2px;
+}
+
+table.table .form-control.error {
+    border-color: #f50000;
+}
+
+table.table td .add {
+    display: none;
 }
