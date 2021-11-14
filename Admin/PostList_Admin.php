@@ -17,31 +17,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/AE_Admin.css">
+    <link rel="stylesheet" href="css/Admin.css">
     <title>Laptop</title>
 
-    <style>
-        table {
-            font-family: arial, sans-serif;
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-        td,
-        th {
-            /* border: 1px solid #dddddd; */
-            text-align: left;
-            padding: 5px;
-            text-indent: 20px;
-        }
-
-        tr:nth-child(even) {
-            background-color: #dddddd;
-        }
-
-        table a{
-            text-decoration: none;
-        }
-    </style>
 
 </head>
 
@@ -109,28 +87,8 @@
                            </tr>
                            </tr>
                        </table>
-
                    </div>
-
                </div>
-
-               <!-- <ul class="pagination home-product__pagination">
-                   <li class="pagination-item ">
-                       <a href="" class="pagination-item__link"><i class="pagination-item__icon fas fa-chevron-left"></i></a>
-                   </li>
-                   <li class="pagination-item pagination-item--active">
-                       <a href="" class="pagination-item__link">1</a>
-                   </li>
-                   <li class="pagination-item">
-                       <a href="" class="pagination-item__link">2</a>
-                   </li>
-                   <li class="pagination-item">
-                       <a href="" class="pagination-item__link">3</a>
-                   </li>
-                   <li class="pagination-item">
-                       <a href="" class="pagination-item__link"><i class="pagination-item__icon fas fa-chevron-right"></i></a>
-                   </li>
-               </ul> -->
                </div>
        </div>
    </div>

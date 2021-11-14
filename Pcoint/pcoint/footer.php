@@ -25,6 +25,13 @@
       <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      
+
+    <link rel="stylesheet" href="../pcoint/css/dinhdo/gird.css">
+    <link rel="stylesheet" href="../pcoint/css/dinhdo/responsive.css">
+    <link rel="stylesheet" href="../pcoint/css/dinhdo/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
 
 <div class="footer">
             <div class="container">
@@ -45,14 +52,5 @@
                   </div>
                </div>
             </div>
-            <div class="copyright">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-12">
-                        <p>© 2019 All Rights Reserved. Design by <a href="https://html.design/"> Free Html Templates</a></p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
+             </div>
 </html>

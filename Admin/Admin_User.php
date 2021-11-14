@@ -18,31 +18,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/AE_Admin.css">
+    <link rel="stylesheet" href="css/Admin.css">
     <title>Laptop</title>
 
-    <style>
-        table {
-            font-family: arial, sans-serif;
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-        td,
-        th {
-            /* border: 1px solid #dddddd; */
-            text-align: center;
-            padding: 5px;
-            text-indent: 20px;
-        }
-
-        tr:nth-child(even) {
-            background-color: #dddddd;
-        }
-
-        table a{
-            text-decoration: none;
-        }
-    </style>
 </head>
 
 
