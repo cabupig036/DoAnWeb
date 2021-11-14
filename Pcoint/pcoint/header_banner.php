@@ -80,24 +80,34 @@
                                  
                                  </ul>
                                   <div class="user_btn">  
-                                     <?php
-                                     
-                               
-                                 include "Login.php";
-                                 include "session_login.php";
-                                      if(isset($_Session['email']))
-                                   {
-                                      $email=$_SESSION['email'];
-                                    $sql = "SELECT username FROM  `users` WHERE  email = '$email' ";
-                                    $result=mysqli_query($con,$sql);
-                                    $data=mysqli_fetch_object($result);
-                                    foreach($data as $username)
-                                    {
-                                    echo 'Hello'." ".($username);}
-                                   }
-                     ?>
+                                  <?php
+                 /*   hello user */
+                       
+                       if(isset($_SESSION['email']))
+                        {
+                                 include '../logout_sessionuser/config.php';
+                           
+                              $email=$_SESSION['email'];
+                           $sql = "SELECT username FROM  `users` WHERE  email = '$email' ";
+                           $result=mysqli_query($con,$sql);
+                           $data=mysqli_fetch_object($result);
+                           foreach($data as $username){
+                           echo 'Hello'." ".($username);
+                           }
+                        }
+          ?>  
+        <!--   end    -->
+       <!--    Logout -->
                      </div>
-                              <div class="sign_btn"><a href="/login-form-v1/Login_v1/Login.php">Sign in</a></div>
+                       <?php  if(isset($_SESSION['email'])) {
+                  echo '<div class="sign_btn"><a class="buy" href="../logout_sessionuser/logout.php">Logout</a></div>';
+                   }
+                  /*  session khong ton tai thi login */
+                   if(!isset($_SESSION['email'])) {
+                     echo  ' <div class="sign_btn"><a href="../../login-form-v1/Login_v1/Login.php">Sign in</a></div>';
+                   }
+                  ?>
+                 <!--  end logout -->
                         </nav>
                      </div>
                   </div>
