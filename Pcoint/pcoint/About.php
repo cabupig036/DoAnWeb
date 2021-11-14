@@ -6,9 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About PCOINT</title>
-    <link rel="icon" href="https://themify.me/wp-content/themes/themify-v32/favicon.png" type="image/gif" sizes="16x16">
-
-    <!-- bootstrap css -->
+       <!-- bootstrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
       <!-- style css -->
       <link rel="stylesheet" href="css/style.css">
