@@ -27,7 +27,7 @@
     <title>Laptop</title>
     <style>
         .button-edit:hover,
-        .button-delete:hover,
+        .btn btn-success:hover,
         .button-add:hover{
             opacity: 0.5;
         }
@@ -44,81 +44,81 @@
         <div class="row">
             <div class="col l-12 m-12 c-12" style="height:1200px">
                 <div class="home-filter hide-on-mobile-tablet" style="justify-content: end;">
-                <button class="button-edit" style="min-width:60px; padding:12px 0; background-color: #ccc;">Thêm</button>
+                <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Thêm</button>
 
                 </div>
 
                 <div class="home-product">
-                    <div class="row">
-                        <div class="col l-2-4 m-4 c-6" style="margin-top: 15px;">
+                    <div class="row"style="margin-left: 65px;">
+                        <div class="col l-2-4 m-4 c-8" style="margin-top: 15px;">
                             <div href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="button-wrap" style="display:flex; justify-content: space-around;padding:12px;">
                                    <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Sửa</button>
-                                   <button class="button-delete" style="min-width:60px; padding:12px 0;">Xóa</button>
+                                   <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Xóa</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col l-2-4 m-4 c-6" style="margin-top: 15px;">
+                        <div class="col l-2-4 m-4 c-8" style="margin-top: 15px;">
                             <div href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="button-wrap" style="display:flex; justify-content: space-around;padding:12px;">
                                    <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Sửa</button>
-                                   <button class="button-delete" style="min-width:60px; padding:12px 0;">Xóa</button>
+                                   <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Xóa</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col l-2-4 m-4 c-6" style="margin-top: 15px;">
+                        <div class="col l-2-4 m-4 c-8" style="margin-top: 15px;">
                             <div href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="button-wrap" style="display:flex; justify-content: space-around;padding:12px;">
                                    <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Sửa</button>
-                                   <button class="button-delete" style="min-width:60px; padding:12px 0;">Xóa</button>
+                                   <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Xóa</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col l-2-4 m-4 c-6" style="margin-top: 15px;">
+                        <div class="col l-2-4 m-4 c-8" style="margin-top: 15px;">
                             <div href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="button-wrap" style="display:flex; justify-content: space-around;padding:12px;">
                                    <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Sửa</button>
-                                   <button class="button-delete" style="min-width:60px; padding:12px 0;">Xóa</button>
+                                   <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Xóa</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col l-2-4 m-4 c-6" style="margin-top: 15px;">
+                        <div class="col l-2-4 m-4 c-8" style="margin-top: 15px;">
                             <div href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="button-wrap" style="display:flex; justify-content: space-around;padding:12px;">
                                    <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Sửa</button>
-                                   <button class="button-delete" style="min-width:60px; padding:12px 0;">Xóa</button>
+                                   <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Xóa</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col l-2-4 m-4 c-6" style="margin-top: 15px;">
+                        <div class="col l-2-4 m-4 c-8" style="margin-top: 15px;">
                             <div href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="button-wrap" style="display:flex; justify-content: space-around;padding:12px;">
                                    <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Sửa</button>
-                                   <button class="button-delete" style="min-width:60px; padding:12px 0;">Xóa</button>
+                                   <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Xóa</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col l-2-4 m-4 c-6" style="margin-top: 15px;">
+                        <div class="col l-2-4 m-4 c-8" style="margin-top: 15px;">
                             <div href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="button-wrap" style="display:flex; justify-content: space-around;padding:12px;">
                                    <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Sửa</button>
-                                   <button class="button-delete" style="min-width:60px; padding:12px 0;">Xóa</button>
+                                   <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Xóa</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col l-2-4 m-4 c-6" style="margin-top: 15px;">
+                        <div class="col l-2-4 m-4 c-8" style="margin-top: 15px;">
                             <div href="#" class="home-product-item">
                                 <img src="images/laptop_sp.jpg" alt="" class="home-product-item-img">
                                 <div class="button-wrap" style="display:flex; justify-content: space-around;padding:12px;">
                                    <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Sửa</button>
-                                   <button class="button-delete" style="min-width:60px; padding:12px 0;">Xóa</button>
+                                   <button class="btn btn-success" style="min-width:60px; padding:12px 0;">Xóa</button>
                                 </div>
                             </div>
                         </div>
