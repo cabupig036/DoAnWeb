@@ -24,14 +24,13 @@
       <link rel="icon" href="images/fevicon.png" type="image/gif" />
       <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="../pcoint/css/style.css">
-
+    <link rel="stylesheet" href="./css/AE_Contact.css">
 
     <link rel="stylesheet" href="../pcoint/css/dinhdo/gird.css">
     <link rel="stylesheet" href="../pcoint/css/dinhdo/responsive.css">
     <link rel="stylesheet" href="../pcoint/css/dinhdo/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-      <link rel="stylesheet" href="css/AE_Contact.css">
-   <link rel="stylesheet" href="css/AE_header_banner.css"
+   <link rel="stylesheet" href="./css/AE_header_banner.css"
       
 </head>
    <!-- body -->

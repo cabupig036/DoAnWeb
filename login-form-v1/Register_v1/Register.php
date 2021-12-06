@@ -38,7 +38,7 @@
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate="Valid name is required">
-						<input class="input100" type="text" name="username" placeholder="Name" required>
+						<input class="input100" type="name" name="username" placeholder="Name" required>
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
@@ -69,7 +69,7 @@
 						<button class="login100-form-btn">
 							Register
 						</button></a>
-</div>
+				</div>
 					<div class="text-center p-t-20">
 						<a class="txt2" href="../Login_v1/Login.php">
 						If you already have an account

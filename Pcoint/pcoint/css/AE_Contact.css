@@ -1,7 +1,18 @@
+/* .l-container_ov {
+  position: relative;
+  margin-left: 1000;
+  margin: auto;
+  width: 50%;
+
+  padding: 10px;
+} */
 .container_ov {
   position: relative;
-  width: 100%;
   margin-left: 1000;
+  margin: auto;
+  width: 50%;
+
+  padding: 10px;
 }
 
 .image_ov {
@@ -59,13 +70,5 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-top: 1%;
 }
-/* .tri_1{
-  position: relative;
-
-}
-.tri{
-  position: absolute;
-  left:50%;
-  top:50%;
-} */
