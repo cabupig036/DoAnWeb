@@ -18,6 +18,7 @@
 
 <body>
     <div id="main">
+<<<<<<< Updated upstream
       
  <!-- header_banner -->
    
@@ -25,6 +26,84 @@
       include 'header_banner.php';
       ?>
    <!-- end haeder_banner -->
+=======
+    <?php
+    // include 'config.php';
+    $conn = mysqli_connect('localhost','root','','biding') or die('Error connecting to mysql: '. mysqli_error());
+    mysqli_set_charset($conn,"utf8");
+    $sql = "SELECT * FROM `post`";
+    $posts = mysqli_query($conn, $sql);
+?>
+        <header>
+         <!-- header inner -->
+         <div  class="head_top">
+            <div class="header">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                        <div class="full">
+                           <div class="center-desk">
+                              <div class="logo">
+                                 <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                        <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                           <span class="navbar-toggler-icon"></span>
+                           </button>
+                           <div class="collapse navbar-collapse" id="navbarsExample04">
+                              <ul class="navbar-nav mr-auto">
+                                 <li class="nav-item">
+                                    <a class="nav-link"  href="./Homepage.php"> HomePage </a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="./Product.php" style="color:gray;">Product</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="./About.php" style="color:gray;">About</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="./Contact.php" style="color:gray;">Contact us</a>
+                                 </li>
+                              </ul>
+                              <div class="sign_btn"><a href="/login-form-v1/Login_v1/Login.php">Sign in</a></div>
+                           </div>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- end header inner -->
+            <!-- end header -->
+            <!-- banner -->
+            <section class="banner_main">
+               <div class="container-fluid">
+                  <div class="row d_flex">
+                     <div class="col-md-5">
+                        <div class="text-bg">
+                           <h1>Pcoint MoG <br>Zen 3</h1>
+                           <strong style="color: #1FD793; font-weight:bold; ">799.99$</strong>
+                           <strong style="text-decoration:line-through; font-size:16px"> 1,099.99 $</strong>
+                           <span>Sale Off 30%</span>
+                           <a href="./ProductDetail.php">Buy Now</a>
+                        </div>
+                     </div>
+                     <div class="col-md-7 padding_right1">
+                        <div class="text-img">
+                           <figure><img src="images/top_img.png" alt="#"/></figure>
+                           <h3>01</h3>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </header>
+      <!-- end banner -->
+>>>>>>> Stashed changes
 
 
         <div id="content">
@@ -68,64 +147,17 @@
                 
                     <!-- place list -->
                     <div class="place-list">
+                    <?php foreach ($posts as $post) { ?>
                         <div class="place-item s-col-ful mt-16">
-                            <img src="./images/AE_About-img/sb-blog-programming_800x450.jpg" alt="newyork" class="place-img">
+                            <img  src="../../Admin/images/PostList/<?php echo $post['image'] ?>" class="place-img">
                             <div class="place-body">
-                                <p class="place-text">New York Times</p>
-                                <p class="place-text place-text-date" style="color: #ccc;">Robb Report  |  Fri 27 Nov 2016</p>
-                                <p class="place-text">Senses of Romantique: Indochine Villa – GRAFISCHE GEHEIMEN</p>
+                                <p class="place-text"><?php echo $post['post_content'] ?></p>
                                 <a class="place-btn js-buy-ticket s-full-width">SEE MORE</a>
                             </div>
                         </div>
+                    <?php } ?>
 
-                        <div class="place-item s-col-ful mt-16">
-                            <img src="./images/AE_About-img/96bbao-chi-15610505946001909450090-crop-1561050602186271427839.jpg" alt="newyork" class="place-img">
-                            <div class="place-body">
-                                <p class="place-text">New York Times</p>
-                                <p class="place-text place-text-date" style="color: #ccc;">Robb Report  |  08 Jul 2021</p>
-                                <p class="place-text">PERSONALISED AND POIGNANT PERFECTION – GRAFISCHE GEHEIMEN</p>
-                                <a class="place-btn js-buy-ticket s-full-width">SEE MORE</a>
-                            </div>
-                        </div>
-
-                        <div class="place-item s-col-ful mt-16">
-                            <img src="./images/AE_About-img/thumb2.jpg" alt="newyork" class="place-img">
-                            <div class="place-body">
-                                <p class="place-text">New York Times</p>
-                                <p class="place-text place-text-date" style="color: #ccc;">Robb Report  |  08 Jul 2021</p>
-                                <p class="place-text">Interieur Contrastrijk lijnenspel – GRAFISCHE GEHEIMEN.</p>
-                                <a class="place-btn js-buy-ticket s-full-width">SEE MORE</a>
-                            </div>
-                        </div>
-                        <div class="place-item s-col-ful mt-16">
-                            <img src="./images/AE_About-img/thumb_800x501.jpg" alt="newyork" class="place-img">
-                            <div class="place-body">
-                                <p class="place-text">New York Times</p>
-                                <p class="place-text place-text-date" style="color: #ccc;">Robb Report  |  Fri 27 Nov 2016</p>
-                                <p class="place-text place-text-subtitle">PCIRE TRVDON – Nàng thơm đến từ Paris – GRAFISCHE GEHEIMEN </p>
-                                <a class="place-btn js-buy-ticket s-full-width">SEE MORE</a>
-                            </div>
-                        </div>
-
-                        <div class="place-item s-col-ful mt-16">
-                            <img src="./images/AE_About-img/unnamed.jpg" alt="newyork" class="place-img">
-                            <div class="place-body">
-                                <p class="place-text">New York Times</p>
-                                <p class="place-text place-text-date" style="color: #ccc;">Robb Report  |  Fri 27 Nov 2016</p>
-                                <p class="place-text">HARPER’S BAZAAR STAR AWARDS 2019</p>
-                                <a data-target="" data-toggle="" class="place-btn js-buy-ticket s-full-width">SEE MORE</a>
-                            </div>
-                        </div>
-
-                        <div class="place-item s-col-ful mt-16">
-                            <img src="./images/AE_About-img/thumb3.jpg" alt="newyork" class="place-img">
-                            <div class="place-body">
-                                <p class="place-text">New York Times</p>
-                                <p class="place-text place-text-date" style="color: #ccc;">Robb Report  |  1Fri 27 Nov 2016</p>
-                                <p class="place-text">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <a class="place-btn js-buy-ticket s-full-width">SEE MORE</a>
-                            </div>
-                        </div>
+                        
 
                         <div class="clean"></div>
                     </div>
@@ -143,7 +175,39 @@
 
            
             <footer>
+<<<<<<< Updated upstream
      <?php include'footer.php';?>
+=======
+         <div class="footer">
+            <div class="container">
+               <div class="row">        
+                  <div class="col-md-6">
+                     <div class="cont">
+                        <h3> <strong class="multi"> Free Multipurpose</strong><br>
+                           Responsive Landing Page 2019
+                        </h3>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="cont_call">
+                        <h3> <strong class="multi"> Call Now</strong><br>
+                           (+1) 12345667890
+                        </h3>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>© 2019 All Rights Reserved. Design by <a href="https://html.design/"> PCOINT</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+>>>>>>> Stashed changes
       </footer>
             <!-- Buy Tickets -->
             <div class="modal js-modal">
@@ -156,10 +220,11 @@
                         <i style="margin-right: 10px; "class="ti-wordpress"></i>
                         STORY
                     </header>
+
                     <div class="modal-body">
-                        <img src="../pcoint/images/AE_About-img/190515-pc-world-vietnam-01_resize.jpg" alt="" class="modal-img">
-        
-                        </button> -->
+                        <!-- <img  src="../../Admin/images/CCapture-(2)_edited.jpg" alt="" class="modal-img"> -->
+                        <p>Máy tính xách tay hay máy vi tính xách tay (Tiếng Anh: laptop computer hay laptop PC) là một chiếc máy tính cá nhân nhỏ gọn có thể mang xách được. ... Để sử dụng máy tính người sử dụng sẽ mở tách hai phần trên dưới của máy. Laptop khi không dùng đến sẽ được gấp lại, và do đó nó thích hợp cho việc sử dụng khi di chuyển.</p>
+                        </button>
                     </div>
                     <div class="modal-footer">
                         <!-- <button class="close js-modal-close">Close</button> -->
