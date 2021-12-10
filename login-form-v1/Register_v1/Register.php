@@ -69,23 +69,10 @@
 						<button class="login100-form-btn">
 							Register
 						</button></a>
-					</div>
-
-					<div class="text-center p-t-12">
-						<span class="txt1">
-							Forgot
-						</span>
-						<a class="txt2" href="/DoAnWeb/login-form-v1/ForgotAccount_v1/ForgotAccount.php">
-							Username / Password?
-						</a>
-					</div>
-					<div class="text-center p-t-136">
-						<h3>If you have a account.</h3><br />
-						<p>Click here to <a class="txt2" href='../Login_v1/Login.php'><u>Login</u></a></p>
-					</div>
-					<div class="text-center p-t-136">
-						<a class="txt2" href="/DoAnWeb/login-form-v1/Register_v1/Register.php">
-							Create your Account
+</div>
+					<div class="text-center p-t-20">
+						<a class="txt2" href="../Login_v1/Login.php">
+						If you already have an account
 							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
 						</a>
 					</div>

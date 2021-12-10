@@ -8,17 +8,6 @@
     <title>About PCOINT</title>
     <link rel="icon" href="https://themify.me/wp-content/themes/themify-v32/favicon.png" type="image/gif" sizes="16x16">
 
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
-      <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
-      <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-
     <!-- link => tab -->
     <link rel="stylesheet" href="../../Pcoint/pcoint/css/AE_About.css">
     <link rel="stylesheet" href="./js/AE_About.js">
@@ -30,75 +19,12 @@
 <body>
     <div id="main">
       
-        <header>
-         <!-- header inner -->
-         <div  class="head_top">
-            <div class="header">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
-                        <div class="full">
-                           <div class="center-desk">
-                              <div class="logo">
-                                 <a href="index.html"><img src="images/logo.png" alt="#" /></a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-                        <nav class="navigation navbar navbar-expand-md navbar-dark ">
-                           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                           <span class="navbar-toggler-icon"></span>
-                           </button>
-                           <div class="collapse navbar-collapse" id="navbarsExample04">
-                              <ul class="navbar-nav mr-auto">
-                                 <li class="nav-item">
-                                    <a class="nav-link"  href="./Homepage.php"> HomePage </a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a class="nav-link" href="./Product.php" style="color:gray;">Product</a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a class="nav-link" href="./About.php" style="color:gray;">About</a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a class="nav-link" href="./Contact.php" style="color:gray;">Contact us</a>
-                                 </li>
-                              </ul>
-                              <div class="sign_btn"><a href="/login-form-v1/Login_v1/Login.php">Sign in</a></div>
-                           </div>
-                        </nav>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- end header inner -->
-            <!-- end header -->
-            <!-- banner -->
-            <section class="banner_main">
-               <div class="container-fluid">
-                  <div class="row d_flex">
-                     <div class="col-md-5">
-                        <div class="text-bg">
-                           <h1>Pcoint MoG <br>Zen 3</h1>
-                           <strong style="color: #1FD793; font-weight:bold; ">799.99$</strong>
-                           <strong style="text-decoration:line-through; font-size:16px"> 1,099.99 $</strong>
-                           <span>Sale Off 30%</span>
-                           <a href="./ProductDetail.php">Buy Now</a>
-                        </div>
-                     </div>
-                     <div class="col-md-7 padding_right1">
-                        <div class="text-img">
-                           <figure><img src="images/top_img.png" alt="#"/></figure>
-                           <h3>01</h3>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
-         </div>
-      </header>
-      <!-- end banner -->
+ <!-- header_banner -->
+   
+ <?php
+      include 'header_banner.php';
+      ?>
+   <!-- end haeder_banner -->
 
 
         <div id="content">
@@ -215,46 +141,9 @@
             </div>
 
 
-            <div id="footer">
-                <div class="social-list">
-                    <a href="#"><i class="ti-instagram"></i></a>
-                    <a href="#"><i class="ti-facebook"></i></a>
-                    <a href="#"><i class="ti-google"></i></a>
-                    <a href="#"><i class="ti-twitter"></i></a>
-                    <a href="#"><i class="ti-tiktok"></i></a>
-                    <a href="#"><i class="ti-pinterest"></i></a>
-                </div>
-            </div>
+           
             <footer>
-         <div class="footer">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-6">
-                     <div class="cont">
-                        <h3> <strong class="multi"> Free Multipurpose</strong><br>
-                           Responsive Landing Page 2019
-                        </h3>
-                     </div>
-                  </div>
-                  <div class="col-md-6">
-                     <div class="cont_call">
-                        <h3> <strong class="multi"> Call Now</strong><br>
-                           (+1) 12345667890
-                        </h3>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="copyright">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-12">
-                        <p>© 2019 All Rights Reserved. Design by <a href="https://html.design/"> PCOINT</a></p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
+     <?php include'footer.php';?>
       </footer>
             <!-- Buy Tickets -->
             <div class="modal js-modal">

@@ -354,9 +354,15 @@ button {
 }
 
 .text-bg strong {
+<<<<<<< HEAD
     font-size: 27px;
     line-height: 35px;
     color: #2d2c2c;
+=======
+     font-size: 27px;
+     line-height: 35px;
+     color: #000000;
+>>>>>>> Danh
 }
 
 .text-bg span {

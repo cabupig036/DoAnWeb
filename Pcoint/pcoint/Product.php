@@ -4,99 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <a href=""></a>
-    
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="../pcoint/css/style.css">
-
-
-    <link rel="stylesheet" href="../pcoint/css/dinhdo/gird.css">
-    <link rel="stylesheet" href="../pcoint/css/dinhdo/responsive.css">
-    <link rel="stylesheet" href="../pcoint/css/dinhdo/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-
-    <!-- Header/Footer source -->
-    <!-- bootstrap css -->
-    
-
-      <!-- <link rel="stylesheet" href="css/responsive.css">
-
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
-
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css"> -->
-    <title>Laptop</title>
+    <title>Product</title>
 </head>
 <body>
 <div class="main ">
-<div class="main">
 
-<header>
-         <!-- header inner -->
-         <div  class="head_top">
-            <div class="header">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
-                        <div class="full">
-                           <div class="center-desk">
-                              <div class="logo">
-                                 <a href="index.html"><img src="images/logo.png" alt="#" /></a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-                        <nav class="navigation navbar navbar-expand-md navbar-dark ">
-                           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                           <span class="navbar-toggler-icon"></span>
-                           </button>
-                           <div class="collapse navbar-collapse" id="navbarsExample04">
-                              <ul class="navbar-nav mr-auto">
-                                 <li class="nav-item">
-                                    <a class="nav-link" href="./Homepage.php"> HomePage </a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a class="nav-link" href="./Product.php" style="color:gray;">Product</a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a class="nav-link" href="./About.php" style="color:gray;">About</a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a class="nav-link" href="./Contact.php" style="color:gray;">Contact us</a>
-                                 </li>
-                              </ul>
-                              <div class="sign_btn"><a href="/login-form-v1/Login_v1/Login.php">Sign in</a></div>
-                           </div>
-                        </nav>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- end header inner -->
-            <!-- end header -->
-            <!-- banner -->
-            <section class="banner_main">
-               <div class="container-fluid">
-                  <div class="row d_flex">
-                     <div class="col-md-5">
-                        <div class="text-bg">
-                           <h1>Computer and <br>laptop shop</h1>
-                           <strong>Free Multipurpose Responsive</strong>
-                           <span>Landing Page 2019</span>
-                           <a href="#">Buy Now</a>
-                        </div>
-                     </div>
-                     <div class="col-md-7 padding_right1">
-                        <div class="text-img">
-                           <figure><img src="images/top_img.png" alt="#"/></figure>
-                           <h3>01</h3>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
-         </div>
-      </header>
+
+<body class="main-layout">
+<?php
+      include 'header_banner.php';
+      ?>
       <!-- end banner -->
 
 <div class="app__container">
