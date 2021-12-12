@@ -58,7 +58,7 @@
                <div class="col-4 align-middle">
                   <div class="mane_img">
                      <div class="container_ov ">
-                        <figure> <img src="<?php echo $r["img"] ?>" alt="#" class="image_ov" /></figure>
+                        <figure> <img src="../../Admin/images/user/<?php echo $r["img"] ?>" alt="#" class="image_ov" /></figure>
                         <div class="overlay">
                            <div class="text_ov"><?php echo $r["description"] ?></div>
                         </div>
